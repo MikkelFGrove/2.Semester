@@ -1,0 +1,73 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-01-31T14:10:14+01:00
+
+====== Lecture 1 Prep ======
+
+===== Arrays =====
+Write a summary of your thoughts on the following concepts:
+	**a & b.** **declaring and creating arrays**
+		With simple datetypes you allocate memory when declaring a varible reference to that type, but with an array you need to create it after the reference, with the new keyword, which must know the size of the array, while just declaring the variable does not need to no the size since it can be used anyways. The syntax for both creating a varible reference and creating the array can be done in one statement as so:
+			elementType arrayRefVar[] = new elementType[arraySize];
+			
+		You can also use an //array initilializer// to declare, create and initialize the array, which looks like this:
+			elementType[] arrayRefVar = {value0, value1, ..., valuek};
+
+	c. **processing arrays**
+		When processing arrays you access an element through an index, which has a corresponding value. The most common way to process an array is through a for-loop
+
+	d. **Linear search approach**
+		Compares the value it needs to look for sequentially through each element in the array and returns the index of the element in the array and -1 if it does not exist
+
+===== = =====
+===== Inheritance and Polymorphism =====
+Write a summary of your thoughts on the following concepts:
+	a. **Super classes and Sub classes**
+		If another class inheret from another class the classe becomes a sub class for the on it inherts from, while the class it inherets is called a super class.
+
+	b. **Super Keyword**
+		If you need to access a method, constructor or varible from a sub class to its imidiate superclass, this can be donw with the super keyword
+
+	c. **Overloading and Overriding**
+		You can use overloading to have two methods with the same name have different signatures, by change what args it takes in. Overriding on the otherhand uses the exact same signature from a method from one of a classes super classes, so if the method is called, it uses the overridin method inside the subclass.
+
+	d. **Polymorphism**
+		If two classes are related to eachother through inheretance, the become polymorphic, and when a method that is being inhereted becomes overriden in both classes, the same method can do different things depending on which class the object is of.
+
+===== = =====
+===== Abstract Class and Interfaces =====
+Write a summary of your thoughts on the following concepts:
+	a. **Abstract Class**
+		An abstract class is a class that cant be instanciated and can both have abstract and non-abstract methods, but these methods can only be called through a subclass. But the can have static methods, which can be called directly on the class. 
+
+	b. **Abstract Methods**
+		If a class has an abstract method, the class itself must be declared abstract. An abstrac method cannot in itself be called, and will need an implimentation in a subclass, in fact if a class inheret an abstract class, its abstract methods must be implimented.
+
+	**c & d. Interfaces**
+		An interface is like an abstract class and cannot be instanciated, however fields are atomatically set to public, static and final, and the methods you declare are called default methods, and are always public. While you can only inheret one abstract class, you can impliment as many interfaces as you would like.
+
+===== Java FXML =====
+Write a summary of your thoughts on the following concepts
+	a. Java FX basic structure
+		To launch a JavaFX program you need to call the launch method, which is done automatically if you do not have a main method (except in some IDE's). To actually do something with the window, you need to override the start method, to define what elements need to be displayed such as the scene, buttons, text and so on. Each of these is a seperat class and can be instanciated, with its own set of methods to define how it looks and where in the window it should be.
+
+	b. Panes
+		Panes are used as a layout container to organize other components inside the scene there are several types of panes like Pane, StackPane and HBox.
+
+	c. Groups
+		Group is used like panes to group together nodes and do transformations on the whole group, however unlike panes are not resizable.
+
+	d. Property Bindings
+		Self explanatory - This concepts allows a target object to be bound to a source object, meaning if the source object's properties changes the target object(s) properties will also change. It is done like this:
+			circle.centerXProperty().bind(pane.widthProperty().divide(2));
+
+	
+		
+
+
+
+
+
+
+
+

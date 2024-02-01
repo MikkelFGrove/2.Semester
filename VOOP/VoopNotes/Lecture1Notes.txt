@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-02-01T12:23:21+01:00
+
+====== Lecture1Notes ======
+
+===== Circular Array =====
+Circular array is a standard array that uses a circular index and can look like this:
+	circularIndex = index % length
+
+
+===== Design Patterns =====

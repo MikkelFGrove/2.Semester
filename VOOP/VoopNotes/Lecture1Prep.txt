@@ -18,7 +18,6 @@ Write a summary of your thoughts on the following concepts:
 
 	d. **Linear search approach**
 		Compares the value it needs to look for sequentially through each element in the array and returns the index of the element in the array and -1 if it does not exist
-
 ===== = =====
 ===== Inheritance and Polymorphism =====
 Write a summary of your thoughts on the following concepts:
@@ -33,7 +32,6 @@ Write a summary of your thoughts on the following concepts:
 
 	d. **Polymorphism**
 		If two classes are related to eachother through inheretance, the become polymorphic, and when a method that is being inhereted becomes overriden in both classes, the same method can do different things depending on which class the object is of.
-
 ===== = =====
 ===== Abstract Class and Interfaces =====
 Write a summary of your thoughts on the following concepts:
@@ -48,7 +46,7 @@ Write a summary of your thoughts on the following concepts:
 
 ===== Java FXML =====
 Write a summary of your thoughts on the following concepts
-	a. Java FX basic structure
+	a. JavaFX basic structure
 		To launch a JavaFX program you need to call the launch method, which is done automatically if you do not have a main method (except in some IDE's). To actually do something with the window, you need to override the start method, to define what elements need to be displayed such as the scene, buttons, text and so on. Each of these is a seperat class and can be instanciated, with its own set of methods to define how it looks and where in the window it should be.
 
 	b. Panes

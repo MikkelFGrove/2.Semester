@@ -46,7 +46,6 @@ public class PrimaryController {
         msg = new TextField();
         decryptText = new TextField();
 
-        spinner = new Spinner<>();
         spinner.setValueFactory(
                 new SpinnerValueFactory.IntegerSpinnerValueFactory(
                         0,
@@ -57,22 +56,24 @@ public class PrimaryController {
 
         group = new ToggleGroup();
 
-        rBA = new RadioButton();
-        rBC = new RadioButton();
-
         rBA.setToggleGroup(group);
         rBC.setToggleGroup(group);
 
         rBA.setUserData(1);
         rBC.setUserData(2);
-
-        button = (RadioButton) group.getSelectedToggle();
     }
 
     @FXML
     void encrypt(ActionEvent event) {
+        button = (RadioButton) group.getSelectedToggle();
+        System.out.println("Hello");
+        System.out.println(button);
 
-            if (button != null && button.getUserData() == (Integer) 1){
+
+        RadioButton button1 = (RadioButton) group.getSelectedToggle();
+        System.out.println(rBA);
+
+        if (button != null && button.getUserData() == (Integer) 1){
             AbstractCipher atbash = new AtbashCipher();
             atbash.encrypt(msg.getText());
             System.out.println("Hello");

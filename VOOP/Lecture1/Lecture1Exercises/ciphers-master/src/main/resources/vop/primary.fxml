@@ -20,7 +20,7 @@
                   <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="100.0">
                      <children>
                         <Label alignment="CENTER_RIGHT" text="Besked" />
-                        <TextField alignment="BOTTOM_LEFT" minWidth="300.0" promptText="Secret Message" />
+                        <TextField fx:id="msg" alignment="BOTTOM_LEFT" minWidth="300.0" promptText="Secret Message" />
                      </children>
                   </HBox>
                   <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="100.0">
@@ -37,12 +37,12 @@
                   <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="100.0">
                      <children>
                         <Button mnemonicParsing="false" onAction="#encrypt" text="Krypter" />
-                        <TextField editable="false" focusTraversable="false" minWidth="300.0" />
+                        <TextField fx:id="encryptText" editable="false" focusTraversable="false" minWidth="300.0" />
                      </children></HBox>
                   <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="100.0">
                      <children>
                         <Button mnemonicParsing="false" onAction="#decrypt" text="Dekrypter" />
-                        <TextField editable="false" focusTraversable="false" minWidth="300.0" />
+                        <TextField fx:id="decryptText" editable="false" focusTraversable="false" minWidth="300.0" />
                      </children></HBox>
                </children>
             </VBox>

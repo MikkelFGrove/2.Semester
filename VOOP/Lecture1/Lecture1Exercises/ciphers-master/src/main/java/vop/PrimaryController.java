@@ -33,18 +33,13 @@ public class PrimaryController {
     @FXML
     private ToggleGroup group;
 
-    @FXML
-    void decrypt(ActionEvent event) {
 
-    }
 
     @FXML
     private RadioButton button;
 
     @FXML
     public void initialize(){
-        msg = new TextField();
-        decryptText = new TextField();
 
         spinner.setValueFactory(
                 new SpinnerValueFactory.IntegerSpinnerValueFactory(
@@ -66,20 +61,28 @@ public class PrimaryController {
     @FXML
     void encrypt(ActionEvent event) {
         button = (RadioButton) group.getSelectedToggle();
-        System.out.println("Hello");
-        System.out.println(button);
-
-
-        RadioButton button1 = (RadioButton) group.getSelectedToggle();
-        System.out.println(rBA);
 
         if (button != null && button.getUserData() == (Integer) 1){
             AbstractCipher atbash = new AtbashCipher();
-            atbash.encrypt(msg.getText());
-            System.out.println("Hello");
+            encryptText.setText(atbash.encrypt(msg.getText()));
         } else {
-            AbstractCipher atbash = new CaesarCipher((Integer) spinner.getValue());
-            atbash.encrypt(msg.getText());
+            AbstractCipher caesar = new CaesarCipher((Integer) spinner.getValue());
+            encryptText.setText(caesar.encrypt(msg.getText()));
+
+        }
+    }
+
+    @FXML
+    void decrypt(ActionEvent event) {
+        button = (RadioButton) group.getSelectedToggle();
+
+        if (button != null && button.getUserData() == (Integer) 1){
+            AbstractCipher atbash = new AtbashCipher();
+            decryptText.setText(atbash.decrypt(msg.getText()));
+        } else {
+            AbstractCipher caesar = new CaesarCipher((Integer) spinner.getValue());
+            decryptText.setText(caesar.decrypt(msg.getText()));
+
         }
     }
 

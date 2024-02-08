@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-02-05T21:43:10+01:00
+
+====== Lecture1 ======
+Created Monday 05 February 2024
+

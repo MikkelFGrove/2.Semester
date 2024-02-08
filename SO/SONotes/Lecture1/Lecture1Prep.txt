@@ -1,0 +1,48 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-02-05T21:43:21+01:00
+
+====== Lecture1Prep ======
+
+===== Chapter 1 =====
+=== What is an organization? ===
+Often when severeal people have the same goal and want to work together they can form an organization, which is a tool that coordinates these people actions in order to complete their common goal. An organization comes from peoples needs. Like a need to socialize through the internet (Facebook).
+
+=== How does an organization create value? ===
+An organization creates value through 3 steps, as depicted in this figure:
+{{.\pasted_image001.png}}
+
+4 steps are as follows
+1. Input
+	This is where the organization gets its resources, this does not need to be tangable resources like raw materials, but can also be human resources, like experience to create a functional and user friendly webshop.
+
+2. Conversion
+	In the conversion process is where the inputs are converted to outputs, and it is here that it is determined how valueble an oranization is, ie. how good it is at getting an output from its inputs.
+
+3. Output
+	The output is the result of the conversion proces and is what is used to satisfy their customers needs.
+
+4. Enviroment
+	 The enviroment is all the aspects that are outside the organization's boudaries, but affect it both in what kind of input it can have, but also how valueble its output is.
+
+=== Why do organizations exit and how are they formed? ===
+There are 5 reasons why they exist:
+1. Increased specialization
+	If a persons goal is big and encompasses a big field, it is hard to do this on your own, since your area of expertiese is to broad. When aan organization is formed the focus area/responsibilities are divided (division of labor), where single people or small groups can have a specific area that they are experts in. This greatly enhances efficiency and productivity.
+
+2. Large-scale technology
+	Oraginizations can use large-scale technology like automated systems, that can be greatly cost effecient, and simple ecenomics tell us that the bigger an organization the easier it is to use underutilized resources more effectively since they they can be shared across several areas of expertiese and tasks in the organization.
+
+3. Mange the external environment
+	Environments are the source of valueable input resource, and managing this invironment to optimize input and the value of the organizations output, is a complex task and often to hard for individuals to do, therfore the ability to control environments is favored in organizations.
+
+4. Economize on transaction costs
+	If people had to constantly buy services from outside places in order to fulfill a common goal, there would be more transactions between all parties, instead of all of them just being in one organization, where everything is handled internally. And because each transactions have consts associated with them (transaction costs) it is way more economically effecient to be one big organization.
+
+5. To exert power and control
+	In order for an organization to be effective the workers and the organizations managers needs to have their goals alligened, this might not always be the case, so one avantage of an organization is the ability to exert power and control over its workers, like firering people and promoting people, thus promoting the specific goal of the organization.
+
+
+
+	
+

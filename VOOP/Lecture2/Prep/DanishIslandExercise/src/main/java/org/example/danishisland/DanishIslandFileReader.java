@@ -28,6 +28,25 @@ public class DanishIslandFileReader {
         int addr;
         int adkm;
 
+        try {
+            scan = new Scanner(inFile);
+        } catch (java.io.FileNotFoundException e){
+            System.out.println("File is not found when creating scanner");
+        }
+
+
+        while (scan.hasNext()){
+            line = scan.nextLine();
+            tokens = line.split(" ");
+            name = (String)tokens[0];
+            circ = Double.parseDouble(tokens[1]);
+            area = Double.parseDouble(tokens[2]);
+            addr = Integer.parseInt(tokens[3]);
+            adkm = Integer.parseInt(tokens[4]);
+            islandList.add(new DanishIsland(name, circ, area, addr, adkm));
+        }
+        scan.close();
+
         // OPGAVEN:
         // Laes filen en linje ad gangen. Split linjen paa mellemrums tegnet.
         // Konverter de enkelte vaerdier til typerne der skal bruges i DanishIsland.

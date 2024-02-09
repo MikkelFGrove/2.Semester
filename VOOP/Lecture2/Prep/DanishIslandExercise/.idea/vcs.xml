@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
-    <mapping directory="$PROJECT_DIR$/../../../../../../../../.." vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../../../../../../Python/enigma-python-intro" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../../../../../../Semester Coordination/makeish" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../../../../../../Semester Coordination/sdu-se-teaching-sem1" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../../../../../VOP-2022/VOP Exercises + Solutions/Reviewed Lesson 4 new/Lesson4UnitTestingExercise" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../../.." vcs="Git" />
   </component>
 </project>

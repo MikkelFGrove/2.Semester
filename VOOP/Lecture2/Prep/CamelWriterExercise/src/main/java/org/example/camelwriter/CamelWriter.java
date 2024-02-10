@@ -53,7 +53,7 @@ public class CamelWriter {
         String tempString;
         for (int i = 0; i < arrayString.length; i++){
             tempString = arrayString[i];
-            
+
         }
 
         /*

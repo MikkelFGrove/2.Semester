@@ -47,28 +47,26 @@ public class CamelWriter {
         // Konverter 1. ord til små og resten til stort begyndelsesbogstav
         // Sammensæt ordene til ét langt ord og udskriv.
 
-
-
         String[] arrayString = line.split(" ");
-        String tempString;
+        String tempString = "";
         for (int i = 0; i < arrayString.length; i++){
-            tempString = arrayString[i];
+            char[] tempCh = new char[arrayString[i].length()];
+            if (i == 0){
+                arrayString[i] = arrayString[i].toLowerCase();
+
+            } else {
+                for (int j = 0; j < arrayString[i].length(); j++) {
+                    tempCh[j] = arrayString[i].charAt(j);
+                }
+
+                tempCh[0] = Character.toUpperCase(tempCh[0]);
+                arrayString[i] = String.valueOf(tempCh);
+            }
+            tempString += arrayString[i];
 
         }
+        System.out.println(tempString);
 
-        /*
-        for (int i = 0; i < arrayString.length; i++) {
-            if (i == 0 && arrayString[i] != null){
-                System.out.println(arrayString[i]);
-                StringBuilder tempString = new StringBuilder(arrayString[i]);
-                tempString.setCharAt(0,Character.toLowerCase(arrayString[i].charAt(0)));
-                arrayString[i] = tempString.toString();
-                System.out.println(arrayString[i]);
-            } else if (arrayString[i] != null){
-                arrayString[i].toLowerCase();
-                System.out.println(arrayString[i]);
-            }
-        }*/
     }
 
     /**

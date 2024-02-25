@@ -24,7 +24,11 @@ public class Mountain implements Comparable<Mountain> {
 
     @Override
     public String toString() {
-         return mountainName + " h=" + mountainHeight + ", lat=" + latitude + ", lon=" + longitude + ", ran=" + mountainRange;
+         return mountainName + " h=" + mountainHeight + ", lat=" + latitude + ", lon=" + longitude + ", ran=" + mountainRange + "\n";
+    }
+
+    public String getMountainRange() {
+        return mountainRange;
     }
 
     @Override

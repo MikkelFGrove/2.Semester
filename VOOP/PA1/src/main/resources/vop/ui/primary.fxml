@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.ToggleGroup?>
+<HBox alignment="CENTER" prefHeight="315.0" prefWidth="552.0" spacing="20.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vop.ui.PrimaryController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <fx:define>
+        <ToggleGroup fx:id="fairytaleToggleGroup" />
+    </fx:define>
+
+    <VBox>
+        <Label text="Fairytale">
+            <padding>
+                <Insets bottom="10.0" />
+            </padding>
+        </Label>
+        <TextArea fx:id="fairytaleContent" wrapText="true" />
+      <VBox prefHeight="63.0" prefWidth="512.0">
+         <children>
+            <RadioButton fx:id="ThreeBears" mnemonicParsing="false" onAction="#changeFairytaleThree" text="Goldilocks and the Three Bears " />
+            <RadioButton fx:id="PrincessButton" mnemonicParsing="false" onAction="#changeFairytalePrincess" text="The Princess and the Pea" />
+            <Label fx:id="WordsLabel" text="Words: 0" />
+         </children>
+      </VBox>
+      <Label fx:id="LongestWordLabel" text="Longest word: 0" />
+    </VBox>
+</HBox>

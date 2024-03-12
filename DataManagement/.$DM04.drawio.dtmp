@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2024-03-10T16:26:24.472Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.0.4 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="sZsk6B2KhCwEaaXSgajV" version="24.0.4" type="device">
+<mxfile host="Electron" modified="2024-03-10T16:27:17.968Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.0.4 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="MEQvzXdb0wI5IZsqN1Ej" version="24.0.4" type="device">
   <diagram name="Page-1" id="0Zbd8G5VncU709x-szAZ">
     <mxGraphModel dx="1062" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -12,6 +12,11 @@
         </mxCell>
         <mxCell id="HdUD7hzHtNREhUifunQa-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" parent="1" source="HdUD7hzHtNREhUifunQa-21" target="HdUD7hzHtNREhUifunQa-75" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TPy-PbvYe51R08lRRo0S-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="HdUD7hzHtNREhUifunQa-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1170" y="410" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="HdUD7hzHtNREhUifunQa-21" value="Klub Person" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="970" y="430" width="100" height="40" as="geometry" />

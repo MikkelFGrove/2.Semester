@@ -12,8 +12,12 @@ import vop.NotAFairytaleException;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.net.URL;
+import java.util.ResourceBundle;
 
-public class PrimaryController {
+public class PrimaryController implements Initializable{
+
+
 
     @FXML
     public ToggleGroup fairytaleToggleGroup = new ToggleGroup();
@@ -59,5 +63,8 @@ public class PrimaryController {
     @FXML
     public RadioButton ThreeBears;
 
+    @Override
+    public void initialize(URL url, ResourceBundle resourceBundle) {
 
+    }
 }

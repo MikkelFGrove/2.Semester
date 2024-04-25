@@ -1,0 +1,480 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML lang=en xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>Java Multithreading Programming Tutorial</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=utf-8"><LINK 
+href="/favicon.ico" type=image/x-icon rel="shortcut icon">
+<META 
+content="Java, Tutorials, Learning, Beginners, Basics, Object Oriented Language, Methods, Overriding, Inheritance, Polymorphism, Interfaces, Packages, Collections, Networking, Multithreading, Generics, Multimedia, Serialization, GUI" 
+name=Keywords>
+<META 
+content="Java Multithreading Programming Tutorial -  Learning Java in simple and easy steps : A beginner's tutorial containing complete knowledge of Java Syntax Object Oriented Language, Methods, Overriding, Inheritance, Polymorphism, Interfaces, Packages, Collections, Networking, Multithreading, Generics, Multimedia, Serialization, GUI" 
+name=description>
+<META http-equiv=pragma content=no-cache>
+<META http-equiv=cache-control content=no-cache><LINK 
+href="http://www.tutorialspoint.com/print.css" type=text/css rel=stylesheet>
+<META content="MSHTML 6.00.6000.16981" name=GENERATOR></HEAD>
+<BODY>
+<P><B>Copyright © tutorialspoint.com</B></P>
+<H1>Java - Multithreading</H1><A 
+href="http://www.tutorialspoint.com/java/java_sending_email.htm"><IMG 
+alt=previous src="http://www.tutorialspoint.com/images/previous.gif" 
+border=0></A> <A 
+href="http://www.tutorialspoint.com/java/java_applet_basics.htm"><IMG alt=next 
+src="http://www.tutorialspoint.com/images/next.gif" border=0></A> <!-- AddThis Bookmark Button BEGIN --><A 
+onclick="addthis_url   = location.href; addthis_title = document.title; return addthis_click(this);" 
+href="http://www.addthis.com/bookmark.php" target=_blank><IMG 
+alt="AddThis Social Bookmark Button" 
+src="http://www.tutorialspoint.com/images/add-this.gif" border=0></A>
+<SCRIPT type=text/javascript>var addthis_pub = 'tutorialspoint';</SCRIPT>
+
+<SCRIPT src="http://s9.addthis.com/js/widget.php?v=10" 
+type=text/javascript></SCRIPT>
+ <!-- AddThis Bookmark Button END --><BR><BR>
+<P>Java provides built-in support for <I>multithreaded programming</I>. A 
+multithreaded program contains two or more parts that can run concurrently. Each 
+part of such a program is called a thread, and each thread defines a separate 
+path of execution.</P>
+<P>A multithreading is a specialized form of multitasking. Multitasking threads 
+require less overhead than multitasking processes.</P>
+<P>I need to define another term related to threads: <B>process:</B> A process 
+consists of the memory space allocated by the operating system that can contain 
+one or more threads. A thread cannot exist on its own; it must be a part of a 
+process. A process remains running until all of the non-daemon threads are done 
+executing.</P>
+<P>Multithreading enables you to write very efficient programs that make maximum 
+use of the CPU, because idle time can be kept to a minimum.</P>
+<H1>Life Cycle of a Thread:</H1>
+<P>A thread goes through various stages in its life cycle. For example, a thread 
+is born, started, runs, and then dies. Following diagram shows complete life 
+cycle of a thread.</P>
+<CENTER><IMG alt="Java Thread" 
+src="http://www.tutorialspoint.com/images/java_thread.jpg"> </CENTER>
+<P>Above mentioned stages are explained here:</P>
+<UL>
+  <LI>
+  <P><B>New:</B> A new thread begins its life cycle in the new state. It remains 
+  in this state until the program starts the thread. It is also referred to as a 
+  born thread.</P>
+  <LI>
+  <P><B>Runnable:</B> After a newly born thread is started, the thread becomes 
+  runnable. A thread in this state is considered to be executing its task.</P>
+  <LI>
+  <P><B>Waiting:</B> Sometimes a thread transitions to the waiting state while 
+  the thread waits for another thread to perform a task.A thread transitions 
+  back to the runnable state only when another thread signals the waiting thread 
+  to continue executing.</P>
+  <LI>
+  <P><B>Timed waiting:</B> A runnable thread can enter the timed waiting state 
+  for a specified interval of time. A thread in this state transitions back to 
+  the runnable state when that time interval expires or when the event it is 
+  waiting for occurs.</P>
+  <LI>
+  <P><B>Terminated: </B>A runnable thread enters the terminated state when it 
+  completes its task or otherwise terminates.</P></LI></UL>
+<H1>Thread Priorities:</H1>
+<P>Every Java thread has a priority that helps the operating system determine 
+the order in which threads are scheduled.</P>
+<P>Java priorities are in the range between MIN_PRIORITY (a constant of 1) and 
+MAX_PRIORITY (a constant of 10). By default, every thread is given priority 
+NORM_PRIORITY (a constant of 5).</P>
+<P>Threads with higher priority are more important to a program and should be 
+allocated processor time before lower-priority threads. However, thread 
+priorities cannot guarantee the order in which threads execute and very much 
+platform dependentant.</P>
+<H1>Creating a Thread:</H1>
+<P>Java defines two ways in which this can be accomplished:</P>
+<UL>
+  <LI>
+  <P>You can implement the Runnable interface.</P>
+  <LI>
+  <P>You can extend the Thread class, itself.</P></LI></UL>
+<H2>Create Thread by Implementing Runnable:</H2>
+<P>The easiest way to create a thread is to create a class that implements the 
+<B>Runnable</B> interface.</P>
+<P>To implement Runnable, a class need only implement a single method called 
+<B>run( )</B>, which is declared like this:</P>
+<TABLE class=src cellSpacing=5 cellPadding=5>
+  <TBODY>
+  <TR>
+    <TD><PRE>public void run( )
+</PRE></TD></TR></TBODY></TABLE>
+<P>You will define the code that constitutes the new thread inside run() method. 
+It is important to understand that run() can call other methods, use other 
+classes, and declare variables, just like the main thread can.</P>
+<P>After you create a class that implements Runnable, you will instantiate an 
+object of type Thread from within that class. Thread defines several 
+constructors. The one that we will use is shown here:</P>
+<TABLE class=src cellSpacing=5 cellPadding=5>
+  <TBODY>
+  <TR>
+    <TD><PRE>Thread(Runnable threadOb, String threadName);
+</PRE></TD></TR></TBODY></TABLE>
+<P>Here <I>threadOb</I> is an instance of a class that implements the Runnable 
+interface and the name of the new thread is specified by <I>threadName</I>.</P>
+<P>After the new thread is created, it will not start running until you call its 
+<B>start( )</B> method, which is declared within Thread. The start( ) method is 
+shown here:</P>
+<TABLE class=src cellSpacing=5 cellPadding=5>
+  <TBODY>
+  <TR>
+    <TD><PRE>void start( );
+</PRE></TD></TR></TBODY></TABLE>
+<H2>Example:</H2>
+<P>Here is an example that creates a new thread and starts it running:</P>
+<TABLE class=src cellSpacing=5 cellPadding=5>
+  <TBODY>
+  <TR>
+    <TD><PRE>// Create a new thread.
+class NewThread implements Runnable {
+   Thread t;
+   NewThread() {
+      // Create a new, second thread
+      t = new Thread(this, "Demo Thread");
+      System.out.println("Child thread: " + t);
+      t.start(); // Start the thread
+   }
+   
+   // This is the entry point for the second thread.
+   public void run() {
+      try {
+         for(int i = 5; i &gt; 0; i--) {
+            System.out.println("Child Thread: " + i);
+            // Let the thread sleep for a while.
+            Thread.sleep(500);
+         }
+     } catch (InterruptedException e) {
+         System.out.println("Child interrupted.");
+     }
+     System.out.println("Exiting child thread.");
+   }
+}
+
+class ThreadDemo {
+   public static void main(String args[]) {
+      new NewThread(); // create a new thread
+      try {
+         for(int i = 5; i &gt; 0; i--) {
+           System.out.println("Main Thread: " + i);
+           Thread.sleep(1000);
+         }
+      } catch (InterruptedException e) {
+         System.out.println("Main thread interrupted.");
+      }
+      System.out.println("Main thread exiting.");
+   }
+}
+</PRE></TD></TR></TBODY></TABLE>
+<P>This would produce following result:</P>
+<TABLE class=src cellSpacing=5 cellPadding=5>
+  <TBODY>
+  <TR>
+    <TD><PRE>Child thread: Thread[Demo Thread,5,main]
+Main Thread: 5
+Child Thread: 5
+Child Thread: 4
+Main Thread: 4
+Child Thread: 3
+Child Thread: 2
+Main Thread: 3
+Child Thread: 1
+Exiting child thread.
+Main Thread: 2
+Main Thread: 1
+Main thread exiting.
+</PRE></TD></TR></TBODY></TABLE>
+<H2>Create Thread by Extending Thread:</H2>
+<P>The second way to create a thread is to create a new class that extends 
+<B>Thread</B>, and then to create an instance of that class.</P>
+<P>The extending class must override the <B>run( )</B> method, which is the 
+entry point for the new thread. It must also call <B>start( )</B> to begin 
+execution of the new thread.</P>
+<H2>Example:</H2>
+<P>Here is the preceding program rewritten to extend Thread:</P>
+<TABLE class=src cellSpacing=5 cellPadding=5>
+  <TBODY>
+  <TR>
+    <TD><PRE>// Create a second thread by extending Thread
+class NewThread extends Thread {
+   NewThread() {
+      // Create a new, second thread
+      super("Demo Thread");
+      System.out.println("Child thread: " + this);
+      start(); // Start the thread
+   }
+
+   // This is the entry point for the second thread.
+   public void run() {
+      try {
+         for(int i = 5; i &gt; 0; i--) {
+            System.out.println("Child Thread: " + i);
+			// Let the thread sleep for a while.
+            Thread.sleep(500);
+         }
+      } catch (InterruptedException e) {
+         System.out.println("Child interrupted.");
+      }
+      System.out.println("Exiting child thread.");
+   }
+}
+
+class ExtendThread {
+   public static void main(String args[]) {
+      new NewThread(); // create a new thread
+      try {
+         for(int i = 5; i &gt; 0; i--) {
+            System.out.println("Main Thread: " + i);
+            Thread.sleep(1000);
+         }
+      } catch (InterruptedException e) {
+         System.out.println("Main thread interrupted.");
+      }
+      System.out.println("Main thread exiting.");
+   }
+}
+</PRE></TD></TR></TBODY></TABLE>
+<P>This would produce following result:</P>
+<TABLE class=src cellSpacing=5 cellPadding=5>
+  <TBODY>
+  <TR>
+    <TD><PRE>Child thread: Thread[Demo Thread,5,main]
+Main Thread: 5
+Child Thread: 5
+Child Thread: 4
+Main Thread: 4
+Child Thread: 3
+Child Thread: 2
+Main Thread: 3
+Child Thread: 1
+Exiting child thread.
+Main Thread: 2
+Main Thread: 1
+Main thread exiting.
+</PRE></TD></TR></TBODY></TABLE>
+<H1>Thread Methods:</H1>
+<P>Following is the list of important medthods available in the Thread 
+class.</P>
+<TABLE class=src cellSpacing=0 cellPadding=5 width="100%" border=1>
+  <TBODY>
+  <TR>
+    <TH width="5%">SN</TH>
+    <TH width="95%">Methods with Description</TH></TR>
+  <TR>
+    <TD>1</TD>
+    <TD><B>public void start()</B><BR>Starts the thread in a separate path of 
+      execution, then invokes the run() method on this Thread object.</TD></TR>
+  <TR>
+    <TD>2</TD>
+    <TD><B>public void run()</B><BR>If this Thread object was instantiated 
+      using a separate Runnable target, the run() method is invoked on that 
+      Runnable object.</TD></TR>
+  <TR>
+    <TD>3</TD>
+    <TD><B>public final void setName(String name)</B><BR>Changes the name of 
+      the Thread object. There is also a getName() method for retrieving the 
+      name.</TD></TR>
+  <TR>
+    <TD>4</TD>
+    <TD><B>public final void setPriority(int priority)</B><BR>Sets the 
+      priority of this Thread object. The possible values are between 1 and 
+    10.</TD></TR>
+  <TR>
+    <TD>5</TD>
+    <TD><B>public final void setDaemon(boolean on)</B><BR>A parameter of true 
+      denotes this Thread as a daemon thread.</TD></TR>
+  <TR>
+    <TD>6</TD>
+    <TD><B>public final void join(long millisec)</B><BR>The current thread 
+      invokes this method on a second thread, causing the current thread to 
+      block until the second thread terminates or the specified number of 
+      milliseconds passes.</TD></TR>
+  <TR>
+    <TD>7</TD>
+    <TD><B>public void interrupt()</B><BR>Interrupts this thread, causing it 
+      to continue execution if it was blocked for any reason.</TD></TR>
+  <TR>
+    <TD>8</TD>
+    <TD><B>public final boolean isAlive()</B><BR>Returns true if the thread is 
+      alive, which is any time after the thread has been started but before it 
+      runs to completion.</TD></TR></TBODY></TABLE>
+<P>The previous methods are invoked on a particular Thread object. The following 
+methods in the Thread class are static. Invoking one of the static methods 
+performs the operation on the currently running thread</P>
+<TABLE class=src cellSpacing=0 cellPadding=5 width="100%" border=1>
+  <TBODY>
+  <TR>
+    <TH width="5%">SN</TH>
+    <TH width="95%">Methods with Description</TH></TR>
+  <TR>
+    <TD>1</TD>
+    <TD><B>public static void yield()</B><BR>Causes the currently running 
+      thread to yield to any other threads of the same priority that are waiting 
+      to be scheduled</TD></TR>
+  <TR>
+    <TD>2</TD>
+    <TD><B>public static void sleep(long millisec)</B><BR>Causes the currently 
+      running thread to block for at least the specified number of 
+    milliseconds</TD></TR>
+  <TR>
+    <TD>3</TD>
+    <TD><B>public static boolean holdsLock(Object x)</B><BR>Returns true if 
+      the current thread holds the lock on the given Object.</TD></TR>
+  <TR>
+    <TD>4</TD>
+    <TD><B>public static Thread currentThread()</B><BR>Returns a reference to 
+      the currently running thread, which is the thread that invokes this 
+    method.</TD></TR>
+  <TR>
+    <TD>5</TD>
+    <TD><B>public static void dumpStack()</B><BR>Prints the stack trace for 
+      the currently running thread, which is useful when debugging a 
+      multithreaded application.</TD></TR></TBODY></TABLE>
+<H2>Example:</H2>
+<P>The following ThreadClassDemo program demonstrates some of these methods of 
+the Thread class:</P>
+<TABLE class=src cellSpacing=5 cellPadding=5>
+  <TBODY>
+  <TR>
+    <TD><PRE>// File Name : DisplayMessage.java
+// Create a thread to implement Runnable
+public class DisplayMessage implements Runnable
+{
+   private String message;
+   public DisplayMessage(String message)
+   {
+      this.message = message;
+   }
+   public void run()
+   {
+      while(true)
+      {
+         System.out.println(message);
+      }
+   }
+}
+
+// File Name : GuessANumber.java
+// Create a thread to extentd Thread
+public class GuessANumber extends Thread
+{
+   private int number;
+   public GuessANumber(int number)
+   {
+      this.number = number;
+   }
+   public void run()
+   {
+      int counter = 0;
+      int guess = 0;
+      do
+      {
+          guess = (int) (Math.random() * 100 + 1);
+          System.out.println(this.getName()
+                       + " guesses " + guess);
+          counter++;
+      }while(guess != number);
+      System.out.println("** Correct! " + this.getName()
+                       + " in " + counter + " guesses.**");
+   }
+}
+
+// File Name : ThreadClassDemo.java
+public class ThreadClassDemo
+{
+   public static void main(String [] args)
+   {
+      Runnable hello = new DisplayMessage("Hello");
+      Thread thread1 = new Thread(hello);
+      thread1.setDaemon(true);
+      thread1.setName("hello");
+      System.out.println("Starting hello thread...");
+      thread1.start();
+      
+      Runnable bye = new DisplayMessage("Goodbye");
+      Thread thread2 = new Thread(hello);
+      thread2.setPriority(Thread.MIN_PRIORITY);
+      thread2.setDaemon(true);
+      System.out.println("Starting goodbye thread...");
+      thread2.start();
+
+      System.out.println("Starting thread3...");
+      Thread thread3 = new GuessANumber(27);
+      thread3.start();
+      try
+      {
+         thread3.join();
+      }catch(InterruptedException e)
+      {
+         System.out.println("Thread interrupted.");
+      }
+      System.out.println("Starting thread4...");
+      Thread thread4 = new GuessANumber(75);
+      
+	  thread4.start();
+      System.out.println("main() is ending...");
+   }
+}
+</PRE></TD></TR></TBODY></TABLE>
+<P>This would produce following result. You can try this example again and again 
+and you would get different result every time.</P>
+<TABLE class=src cellSpacing=5 cellPadding=5>
+  <TBODY>
+  <TR>
+    <TD><PRE>Starting hello thread...
+Starting goodbye thread...
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Thread-2 guesses 27
+Hello
+** Correct! Thread-2 in 102 guesses.**
+Hello
+Starting thread4...
+Hello
+Hello
+..........remaining result produced.
+</PRE></TD></TR></TBODY></TABLE>
+<H1>Major Thread Concepts:</H1>
+<P>While doing Multithreading programming, you would need to have following 
+concepts very handy:</P>
+<UL>
+  <LI>
+  <P><A 
+  href="http://www.tutorialspoint.com/java/java_thread_synchronization.htm">Thread 
+  Synchronization</A></P>
+  <LI>
+  <P><A 
+  href="http://www.tutorialspoint.com/java/java_thread_communication.htm">Interthread 
+  Communication</A></P>
+  <LI>
+  <P><A 
+  href="http://www.tutorialspoint.com/java/java_thread_deadlock.htm">Thread 
+  Deadlock</A></P>
+  <LI>
+  <P><A href="http://www.tutorialspoint.com/java/java_thread_control.htm">Thread 
+  Control: Suspend, Stop and Resume</A></P></LI></UL>
+<H1>Using Multithreading:</H1>
+<P>The key to utilizing multithreading support effectively is to think 
+concurrently rather than serially. For example, when you have two subsystems 
+within a program that can execute concurrently, make them individual 
+threads.</P>
+<P>With the careful use of multithreading, you can create very efficient 
+programs. A word of caution is in order, however: If you create too many 
+threads, you can actually degrade the performance of your program rather than 
+enhance it.</P>
+<P>Remember, some overhead is associated with context switching. If you create 
+too many threads, more CPU time will be spent changing contexts than executing 
+your program!</P><BR><A 
+href="http://www.tutorialspoint.com/java/java_sending_email.htm"><IMG 
+alt=previous src="http://www.tutorialspoint.com/images/previous.gif" 
+border=0></A> <A 
+href="http://www.tutorialspoint.com/java/java_applet_basics.htm"><IMG alt=next 
+src="http://www.tutorialspoint.com/images/next.gif" border=0></A> <A 
+href="http://www.tutorialspoint.com/cgi-bin/printversion.cgi?tutorial=java&amp;file=java_multithreading.htm" 
+target=_blank><IMG alt="Printer Friendly" 
+src="http://www.tutorialspoint.com/images/print.gif" border=0></A> <BR>
+<P><B>Copyright © tutorialspoint.com</B></P></BODY></HTML>

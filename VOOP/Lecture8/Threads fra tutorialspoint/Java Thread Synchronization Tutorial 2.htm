@@ -1,0 +1,123 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML lang=en xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>Java Thread Synchronization Tutorial</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=utf-8"><LINK 
+href="/favicon.ico" type=image/x-icon rel="shortcut icon">
+<META 
+content="Java, Tutorials, Learning, Beginners, Basics, Object Oriented Language, Methods, Overriding, Inheritance, Polymorphism, Interfaces, Packages, Collections, Networking, Multithreading, Generics, Multimedia, Serialization, GUI" 
+name=Keywords>
+<META 
+content="Java Thread Synchronization Tutorial -  Learning Java in simple and easy steps : A beginner's tutorial containing complete knowledge of Java Syntax Object Oriented Language, Methods, Overriding, Inheritance, Polymorphism, Interfaces, Packages, Collections, Networking, Multithreading, Generics, Multimedia, Serialization, GUI" 
+name=description>
+<META http-equiv=pragma content=no-cache>
+<META http-equiv=cache-control content=no-cache><LINK 
+href="http://www.tutorialspoint.com/print.css" type=text/css rel=stylesheet>
+<META content="MSHTML 6.00.6000.16981" name=GENERATOR></HEAD>
+<BODY>
+<P><B>Copyright © tutorialspoint.com</B></P>
+<H1>Java - Thread Synchronization</H1><A 
+href="http://www.tutorialspoint.com/java/java_multithreading.htm"><IMG 
+alt=previous src="http://www.tutorialspoint.com/images/previous.gif" 
+border=0></A> <A 
+href="http://www.tutorialspoint.com/java/java_multithreading.htm"><IMG alt=next 
+src="http://www.tutorialspoint.com/images/next.gif" border=0></A> <!-- AddThis Bookmark Button BEGIN --><A 
+onclick="addthis_url   = location.href; addthis_title = document.title; return addthis_click(this);" 
+href="http://www.addthis.com/bookmark.php" target=_blank><IMG 
+alt="AddThis Social Bookmark Button" 
+src="http://www.tutorialspoint.com/images/add-this.gif" border=0></A>
+<SCRIPT type=text/javascript>var addthis_pub = 'tutorialspoint';</SCRIPT>
+
+<SCRIPT src="http://s9.addthis.com/js/widget.php?v=10" 
+type=text/javascript></SCRIPT>
+ <!-- AddThis Bookmark Button END --><BR><BR>
+<P>When two or more threads need access to a shared resource, they need some way 
+to ensure that the resource will be used by only one thread at a time.</P>
+<P>The process by which this synchronization is achieved is called <I>thread 
+synchronization</I>.</P>
+<P>The synchronized keyword in Java creates a block of code referred to as a 
+critical section. Every Java object with a critical section of code gets a lock 
+associated with the object. To enter a critical section, a thread needs to 
+obtain the corresponding object's lock.</P>
+<P>This is the general form of the synchronized statement:</P>
+<TABLE class=src cellSpacing=5 cellPadding=5>
+  <TBODY>
+  <TR>
+    <TD><PRE>synchronized(object) {
+   // statements to be synchronized
+}
+</PRE></TD></TR></TBODY></TABLE>
+<P>Here, object is a reference to the object being synchronized. A synchronized 
+block ensures that a call to a method that is a member of object occurs only 
+after the current thread has successfully entered object's monitor.</P>
+<P>Here is an example, using a synchronized block within the run( ) method:</P>
+<TABLE class=src cellSpacing=5 cellPadding=5>
+  <TBODY>
+  <TR>
+    <TD><PRE>// File Name : Callme.java
+// This program uses a synchronized block.
+class Callme {
+   void call(String msg) {
+      System.out.print("[" + msg);
+      try {
+         Thread.sleep(1000);
+      } catch (InterruptedException e) {
+         System.out.println("Interrupted");
+      }
+      System.out.println("]");
+   }
+}
+
+// File Name : Caller.java
+class Caller implements Runnable {
+   String msg;
+   Callme target;
+   Thread t;
+   public Caller(Callme targ, String s) {
+      target = targ;
+      msg = s;
+      t = new Thread(this);
+      t.start();
+   }
+   
+   // synchronize calls to call()
+   public void run() {
+      synchronized(target) { // synchronized block
+         target.call(msg);
+      }
+   }
+}
+// File Name : Synch.java
+class Synch {
+   public static void main(String args[]) {
+      Callme target = new Callme();
+      Caller ob1 = new Caller(target, "Hello");
+      Caller ob2 = new Caller(target, "Synchronized");
+      Caller ob3 = new Caller(target, "World");
+   
+      // wait for threads to end
+      try {
+         ob1.t.join();
+         ob2.t.join();
+         ob3.t.join();
+      } catch(InterruptedException e) {
+         System.out.println("Interrupted");
+      }
+   }
+}
+</PRE></TD></TR></TBODY></TABLE>
+<P>This would produce following result:</P>
+<TABLE class=src cellSpacing=5 cellPadding=5>
+  <TBODY>
+  <TR>
+    <TD><PRE>[Hello]
+[World]
+[Synchronized]
+</PRE></TD></TR></TBODY></TABLE><BR><A 
+href="http://www.tutorialspoint.com/java/java_multithreading.htm"><IMG 
+alt=previous src="http://www.tutorialspoint.com/images/previous.gif" 
+border=0></A> <A 
+href="http://www.tutorialspoint.com/java/java_multithreading.htm"><IMG alt=next 
+src="http://www.tutorialspoint.com/images/next.gif" border=0></A> <A 
+href="http://www.tutorialspoint.com/cgi-bin/printversion.cgi?tutorial=java&amp;file=java_thread_synchronization.htm" 
+target=_blank><IMG alt="Printer Friendly" 
+src="http://www.tutorialspoint.com/images/print.gif" border=0></A> <BR>
+<P><B>Copyright © tutorialspoint.com</B></P></BODY></HTML>

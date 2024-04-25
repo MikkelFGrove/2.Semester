@@ -1,0 +1,19 @@
+Task 2 - Subtask 1.
+Horse transportation is booming across the world and the company ‘HorseShoes’ sells a lot of premium horseshoes for both customers in Denmark and customers in USA. For that reason, they want a database which satisfies the following constraints: 
+• Fault tolerance 
+	o In case of natural disasters, data should not be lost.
+• Fast database speeds for both customers in USA and Denmark 
+	o They want to increase performance by gradually adding more servers. 
+• Because of GDPR the data from Denmark cannot be replicated in USA
+
+1. How would you split the data? 
+	a. What is the method of splitting data called?
+2. Where would this database place in the CAP theorem? 
+	a. Explain your answer.
+3. Is the database horizontally or vertically scaled?
+-------------------------------------------------
+1. I would split it vertically, so that the possibility to not store GDPR sensitive information in the US servers is possible.
+
+2. It would only be able to satisfy partition tolerance and availability, because of natural disasters it should satisfy partition tolerance. Availability because of fast speeds and low downtime.
+
+3. The database would be scaled horizontally, so it is easier to increase performance by adding more servers

@@ -33,20 +33,14 @@ public class PrimaryController {
     @FXML
     private ToggleGroup group;
 
-    @FXML
-    void decrypt(ActionEvent event) {
 
-    }
 
     @FXML
     private RadioButton button;
 
     @FXML
     public void initialize(){
-        msg = new TextField();
-        decryptText = new TextField();
 
-        spinner = new Spinner<>();
         spinner.setValueFactory(
                 new SpinnerValueFactory.IntegerSpinnerValueFactory(
                         0,
@@ -57,28 +51,38 @@ public class PrimaryController {
 
         group = new ToggleGroup();
 
-        rBA = new RadioButton();
-        rBC = new RadioButton();
-
         rBA.setToggleGroup(group);
         rBC.setToggleGroup(group);
 
         rBA.setUserData(1);
         rBC.setUserData(2);
-
-        button = (RadioButton) group.getSelectedToggle();
     }
 
     @FXML
     void encrypt(ActionEvent event) {
+        button = (RadioButton) group.getSelectedToggle();
 
-            if (button != null && button.getUserData() == (Integer) 1){
+        if (button != null && button.getUserData() == (Integer) 1){
             AbstractCipher atbash = new AtbashCipher();
-            atbash.encrypt(msg.getText());
-            System.out.println("Hello");
+            encryptText.setText(atbash.encrypt(msg.getText()));
         } else {
-            AbstractCipher atbash = new CaesarCipher((Integer) spinner.getValue());
-            atbash.encrypt(msg.getText());
+            AbstractCipher caesar = new CaesarCipher((Integer) spinner.getValue());
+            encryptText.setText(caesar.encrypt(msg.getText()));
+
+        }
+    }
+
+    @FXML
+    void decrypt(ActionEvent event) {
+        button = (RadioButton) group.getSelectedToggle();
+
+        if (button != null && button.getUserData() == (Integer) 1){
+            AbstractCipher atbash = new AtbashCipher();
+            decryptText.setText(atbash.decrypt(msg.getText()));
+        } else {
+            AbstractCipher caesar = new CaesarCipher((Integer) spinner.getValue());
+            decryptText.setText(caesar.decrypt(msg.getText()));
+
         }
     }
 

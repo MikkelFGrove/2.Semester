@@ -82,7 +82,7 @@ public class Pokemon implements Comparable<Pokemon>{
 
     @Override
     public int compareTo(Pokemon o) {
-        return(this.name.compareTo(o.name));
+        return (this.name.compareTo(o.name));
     }
 
 }

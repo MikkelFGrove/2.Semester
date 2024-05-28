@@ -1,0 +1,27 @@
+{
+  "name": "Tundra Motors",
+  "founded": 1995,
+  "id": 5,
+  "inventory":
+  [
+    {
+      "manufacturer": "Ford",
+      "modelnr": "9485",
+      "weight": 1009,
+      "sold": false
+    },
+    {
+      "manufacturer": "Volvo",
+      "modelnr": "8466",
+      "weight": 1608,
+      "sold": true
+    }
+
+  ],
+  "employees":
+  [
+    "Bob",
+    "Jake",
+    "Jane"
+  ]
+}

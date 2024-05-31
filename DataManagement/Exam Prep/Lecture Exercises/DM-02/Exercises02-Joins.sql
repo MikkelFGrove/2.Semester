@@ -72,5 +72,16 @@ FROM orders
          JOIN
      products ON order_lines.product_id = products.id;
 
+SELECT * FROM allproductsboughtview;
+
+CREATE VIEW ProductsSold AS
+SELECT products.name,
+       sum(order_lines.amount) OVER (PARTITION BY products.id) AS units_sold,
+       sum(cast(order_lines.amount as real) * products.price) OVER (PARTITION by products.id) AS total_revenue
+FROM products
+         JOIN
+       order_lines ON products.id = order_lines.product_id;
+ SELECT * from ProductsSold;
+
 SELECT * FROM AllProductsBoughtView where order_number = 'DA-0001234';
 

@@ -6,6 +6,12 @@ DROP TABLE IF EXISTS table_name CASCADE;
 -- DROP DATABASE
 DROP DATABASE IF EXISTS database_name;
 
+-- Reset public schema
+DROP SCHEMA public CASCADE;
+CREATE SCHEMA public;
+GRANT ALL ON SCHEMA public TO postgres;
+GRANT ALL ON SCHEMA public TO public;
+
 -- Creating and Altering Tables
 CREATE TABLE my_table(
     id serial PRIMARY KEY,

@@ -27,7 +27,7 @@ public class Main {
             selectStatement.setString(1, "1234567891");
             ResultSet resultSet = selectStatement.executeQuery();
             while (resultSet.next()) {
-                System.out.println(resultSet.getString("name"));
+                System.out.println(resultSet.getString("name"));q
             }
         } catch (SQLException e) {
             throw new RuntimeException(e);

@@ -1,0 +1,11 @@
+1. When should one choose a document-based NoSQL database over a relational database?
+
+
+
+2. When should one choose a graph-based database over a document-based database?
+
+
+
+3. What is the CAP theorem, and how would you explain it?
+
+

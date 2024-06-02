@@ -1,0 +1,6 @@
+What database should Jan choose? And why? Motivate your choice:
+
+
+-----------------------------------------------------------
+
+Dan kør et stort firma med 18000 kunder som sammensætter relationer imellem kunder og firmaer. Dette inkluderer hvilke firmaer der er ejet af hinanden, hvem der sider i direktionskredsen, og hvem der ejer dem. Desuden holder firmaet styr på hvilke kunder der køber ydelser på tværs af de forskellige firmaer, men også hvad deres politiske holdninger er, og hvordan de stemmer. Dan lever godt af at udnytte denne viden til at sælge disse informationer til alt fra stater til andre firmaer der prøver at målrette deres salg. 

@@ -2,6 +2,8 @@
 <project version="4">
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/DataManagement/Exam Help/Copy&amp;Paste.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/DataManagement/Exam Prep/DM/Task1Subtask2and3.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/DataManagement/Exam Prep/Exams/2022 - Ordinær Eksamen/DM/Task1Subtask2and3.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/DataManagement/Exam Prep/Lecture Exercises/DM-01/Exercise01-Install&amp;Setup.sql" dialect="PostgreSQL" />
   </component>
 </project>

@@ -1,0 +1,27 @@
+The recommended format is the draft format, as it makes it faster to complete the assignment. For example:
+
+Table1(PK Id, Column1, Column2, Column3)
+Table2(PK Id, FK Table1.Id, Column1)
+
+Write your answer below:
+
+sellers(PK id, name, seller_contact)
+
+buyers(PK id, name, phone)
+
+agents(PK id, name, contact)
+
+cities(PK id, name)
+
+zipcode(PK number, FK city_id)
+
+property_types(PK name)
+
+listings(PK id, FK zipcode, address, FK seller_id, FK agent_id, FK buyer, FK property_type, bedrooms, bathrooms, listing_date, sales_date, sale price)
+
+"listings" N->1 "sellers"
+"listings" N->1 "buyers"
+"listings" N->1 "zipcode"
+"listings" N->1 "Agent"
+"listings" N->1 "property_types"
+"zipcode" N->1 "cities"

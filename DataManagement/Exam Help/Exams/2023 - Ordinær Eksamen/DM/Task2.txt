@@ -1,0 +1,7 @@
+The recommended format is the draft format, as it makes it faster to complete the assignment. For example:
+
+Table1(PK Id, Column1, Column2, Column3)
+Table2(PK Id, FK Table1.Id, Column1)
+
+Write your answer below:
+

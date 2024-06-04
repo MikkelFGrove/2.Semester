@@ -1,0 +1,46 @@
+
+Regex 1 - Match only quoted text:
+Regex 2 - Match only lines that end with a question mark:
+
+---------------------------------------------------------------------------------------
+
+“That’s because I don’t make pretenses. People think that anyone who is
+still frank and simple must be very young--and very foolish.... I’ve
+been out four years. Do I seem ignorant and uninteresting to you?”
+
+“No--very frank--naïve.”
+
+She smiled, flushed, glanced shyly at him. “Do you know, I feel I know
+you better than I ever knew any man in my life--even my brothers!”
+
+“Everyone says I’m easy to get acquainted with,” said he, practical and
+unappreciative.
+
+She looked disappointed, but persisted. “I feel freer to talk with
+you. I’d tell you--anything--the things I think, but never dare say.”
+
+“There aren’t any such things,” said he, hastening away from the
+personal. “Anything one really thinks one can’t help saying.”
+
+“Oh, that isn’t a bit true,” cried she. “I think lots of things I don’t
+dare say, just as I want to do lots of things I don’t dare do.”
+
+“You _imagine_ you think them, you _imagine_ you want to do them,” he
+assured her. “But really, what you say and do--that is your real self.”
+
+She sighed. “I hate to believe so.”
+
+“Yes. It is unpleasant to give up the flattering notion that our grand
+dreams are our real selves, and that our mean little schemes and
+actions are just accidental--or devil--or somebody else besides self.”
+
+She looked at him and he was astonished to see that there were tears in
+her eyes. “Don’t--please!” she pleaded. “Don’t make it harder for me to
+do what I’ve got to do.”
+
+“Got to do? Nonsense.”
+
+“No, indeed,” said she, intensely in earnest. “Remember, I’m a woman.
+And a woman has got to do--what’s expected of her.”
+
+“So has a man if he’s the weak sort.”

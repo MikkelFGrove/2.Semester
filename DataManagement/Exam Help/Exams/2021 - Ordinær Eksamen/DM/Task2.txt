@@ -5,12 +5,3 @@ Table2(PK Id, FK Table1.Id, Column1)
 
 Write your answer below:
 
-Ride(PK Id, Name)
-
-Ride_Wait_Time(FK ride_id, time)
-
-Notes(PK Id, Content, FK Entry_by)
-
-Staff(PK Id, name)
-
-Approved(FK Notes_Id, is_approved)

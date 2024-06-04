@@ -1,0 +1,42 @@
+[
+    {
+        "destination": "Paris, Paris"
+    },
+    {
+        "travel_dates": {
+            "departure": "2024-06-15",
+            "return": "2024-06-25"
+        }
+    },
+    {
+        "accomidations": [
+            {
+                "name": "Hotel Le Meurice",
+                "address":"228 RuedeRivoli, 75001 Paris, France",
+                "check_in": "2024-06-15T14:00:00Z",
+                "check_out":"2024-06-25T11:00:00Z",
+                "prepaid": false,
+                "price": 1000
+            },
+            {
+                "name": "Hotel Paris",
+                "address":"300 Francestreet, 75001 Paris, France",
+                "check_in": "2024-06-15T14:00:00Z",
+                "check_out":"2024-06-25T11:00:00Z",
+                "prepaid": true,
+                "price": 5000
+            }
+        ]
+    },
+    {
+        "activities": [
+            {
+            "activity_name": "EiffelTowerVisit",
+            "date": "2024-06-16",
+            "time": "10:00:00",
+            "location": "EiffelTower,Paris,France"
+            }
+        ]
+    }
+    
+]

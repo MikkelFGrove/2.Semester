@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0cdd48e6-2d6c-4d4e-abb6-61985da00ed8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Lecture1/ciphers-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture1/ciphers-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture1/ciphers-master/assets/Ciphers.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture1/ciphers-master/assets/class-diagram.puml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture1/ciphers-master/assets/maven-reload.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture1/ciphers-master/assets/ui.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture1/ciphers-master/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture1/ciphers-master/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture1/ciphers-master/src/main/java/vop/AbstractCipher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture1/ciphers-master/src/main/java/vop/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture1/ciphers-master/src/main/java/vop/AtbashCipher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture1/ciphers-master/src/main/java/vop/CaesarCipher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture1/ciphers-master/src/main/java/vop/CipherDriver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture1/ciphers-master/src/main/java/vop/CipherInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture1/ciphers-master/src/main/java/vop/PrimaryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture1/ciphers-master/src/main/resources/vop/primary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture1/polymorphism-main/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture1/polymorphism-main/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture1/polymorphism-main/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture1/polymorphism-main/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture1/polymorphism-main/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture1/polymorphism-main/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture1/polymorphism-main/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture1/polymorphism-main/assets/Polymorphism.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture1/polymorphism-main/assets/class-diagram.puml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture1/polymorphism-main/assets/ui1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture1/polymorphism-main/assets/ui2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture1/polymorphism-main/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture1/polymorphism-main/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture1/polymorphism-main/src/main/java/vop/AbstractShape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture1/polymorphism-main/src/main/java/vop/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture1/polymorphism-main/src/main/java/vop/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture1/polymorphism-main/src/main/java/vop/Ellipse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture1/polymorphism-main/src/main/java/vop/PrimaryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture1/polymorphism-main/src/main/java/vop/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture1/polymorphism-main/src/main/java/vop/ShapeDriver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture1/polymorphism-main/src/main/java/vop/ShapeFacade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture1/polymorphism-main/src/main/java/vop/ShapeInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture1/polymorphism-main/src/main/java/vop/Square.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture1/polymorphism-main/src/main/resources/vop/primary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture1/polymorphism-main/target/classes/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture1/polymorphism-main/target/classes/vop/AbstractShape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture1/polymorphism-main/target/classes/vop/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture1/polymorphism-main/target/classes/vop/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture1/polymorphism-main/target/classes/vop/Ellipse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture1/polymorphism-main/target/classes/vop/PrimaryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture1/polymorphism-main/target/classes/vop/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture1/polymorphism-main/target/classes/vop/ShapeDriver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture1/polymorphism-main/target/classes/vop/ShapeFacade$SHAPES.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture1/polymorphism-main/target/classes/vop/ShapeFacade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture1/polymorphism-main/target/classes/vop/ShapeInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture1/polymorphism-main/target/classes/vop/Square.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lecture1/polymorphism-main/target/classes/vop/primary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exercises_Comparable_Comparator/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exercises_Comparable_Comparator/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exercises_Comparable_Comparator/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exercises_Comparable_Comparator/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exercises_Comparable_Comparator/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exercises_Comparable_Comparator/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exercises_Comparable_Comparator/src/main/java/Exercise1/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exercises_Comparable_Comparator/src/main/java/Exercise1/ReadMe.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exercises_Comparable_Comparator/src/main/java/Exercise1/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exercises_Comparable_Comparator/src/main/java/Exercise1/StudentComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exercises_Comparable_Comparator/src/main/java/Exercise1_Solution/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exercises_Comparable_Comparator/src/main/java/Exercise1_Solution/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exercises_Comparable_Comparator/src/main/java/Exercise1_Solution/StudentComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exercises_Comparable_Comparator/src/main/java/Exercise2/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exercises_Comparable_Comparator/src/main/java/Exercise2/ReadMe.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exercises_Comparable_Comparator/src/main/java/Exercise2_Solution/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exercises_Comparable_Comparator/src/main/java/Exercise2_Solution/EmployeeComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exercises_Comparable_Comparator/src/main/java/Exercise2_Solution/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exercises_Comparable_Comparator/src/main/java/Exercise3/ReadMe.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exercises_Comparable_Comparator/src/main/java/Exercise3_Solution/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exercises_Comparable_Comparator/src/main/java/Exercise3_Solution/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exercises_Comparable_Comparator/src/main/java/Exercise3_Solution/ProductComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture 9/Enums-and-switch-expressions-main/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture 9/Enums-and-switch-expressions-main/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture 9/Enums-and-switch-expressions-main/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture 9/Enums-and-switch-expressions-main/src/main/java/vop/BatStatistics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture 9/Enums-and-switch-expressions-main/src/main/java/vop/bats/Bat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture 9/Enums-and-switch-expressions-main/src/main/java/vop/bats/BatWithEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture 9/Enums-and-switch-expressions-main/src/main/java/vop/bats/Bats.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture 9/Enums-and-switch-expressions-main/src/main/java/vop/bats/FeedingGroups.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture 9/Enums-and-switch-expressions-main/src/main/java/vop/bats/PopulationStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture 9/Enums-and-switch-expressions-main/src/main/java/vop/exceptions/InvalidPopulationStatusException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture 9/array-manipulation-main/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture 9/array-manipulation-main/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture 9/array-manipulation-main/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture 9/array-manipulation-main/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture 9/array-manipulation-main/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture 9/array-manipulation-main/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture 9/array-manipulation-main/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture 9/array-manipulation-main/src/main/java/ArrayManipulation/ArrayManipulation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture 9/array-manipulation-main/src/main/java/FilesInDirs/FindFilesRecursive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture 9/array-manipulation-main/target/classes/ArrayManipulation/ArrayManipulation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture 9/array-manipulation-main/target/classes/FilesInDirs/FindFilesRecursive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/ciphers-master 2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/ciphers-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/ciphers-master/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/ciphers-master/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/ciphers-master/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/ciphers-master/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/ciphers-master/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/ciphers-master/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/ciphers-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/ciphers-master/assets/Ciphers.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/ciphers-master/assets/class-diagram.puml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/ciphers-master/assets/maven-reload.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/ciphers-master/assets/ui.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/ciphers-master/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/ciphers-master/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/ciphers-master/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/ciphers-master/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/ciphers-master/src/main/java/vop/AbstractCipher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/ciphers-master/src/main/java/vop/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/ciphers-master/src/main/java/vop/AtbashCipher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/ciphers-master/src/main/java/vop/CaesarCipher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/ciphers-master/src/main/java/vop/CipherDriver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/ciphers-master/src/main/java/vop/CipherInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/ciphers-master/src/main/java/vop/PrimaryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/ciphers-master/src/main/resources/vop/primary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/polymorphism-main/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/polymorphism-main/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/polymorphism-main/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/polymorphism-main/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/polymorphism-main/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/polymorphism-main/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/polymorphism-main/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/polymorphism-main/assets/Polymorphism.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/polymorphism-main/assets/class-diagram.puml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/polymorphism-main/assets/ui1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/polymorphism-main/assets/ui2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/polymorphism-main/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/polymorphism-main/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/polymorphism-main/src/main/java/vop/AbstractShape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/polymorphism-main/src/main/java/vop/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/polymorphism-main/src/main/java/vop/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/polymorphism-main/src/main/java/vop/Ellipse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/polymorphism-main/src/main/java/vop/PrimaryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/polymorphism-main/src/main/java/vop/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/polymorphism-main/src/main/java/vop/ShapeDriver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/polymorphism-main/src/main/java/vop/ShapeFacade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/polymorphism-main/src/main/java/vop/ShapeInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/polymorphism-main/src/main/java/vop/Square.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/polymorphism-main/src/main/resources/vop/primary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/polymorphism-main/target/classes/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/polymorphism-main/target/classes/vop/AbstractShape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/polymorphism-main/target/classes/vop/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/polymorphism-main/target/classes/vop/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/polymorphism-main/target/classes/vop/Ellipse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/polymorphism-main/target/classes/vop/PrimaryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/polymorphism-main/target/classes/vop/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/polymorphism-main/target/classes/vop/ShapeDriver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/polymorphism-main/target/classes/vop/ShapeFacade$SHAPES.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/polymorphism-main/target/classes/vop/ShapeFacade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/polymorphism-main/target/classes/vop/ShapeInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/polymorphism-main/target/classes/vop/Square.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Exercises/polymorphism-main/target/classes/vop/primary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/Lecture1Prep/VOOPCaseStudy/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/VOOP-Lecture1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/VOOP-Lecture1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/VOOP-Lecture1/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/VOOP-Lecture1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/VOOP-Lecture1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/VOOP-Lecture1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/VOOP-Lecture1/VOOPCaseStudy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture1/VOOP-Lecture1/src/CaseStudy_DeckOfCards4_7/DeckOfCards.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture11/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture11/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture11/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture11/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture11/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture11/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture11/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture11/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture11/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture11/assets/stack.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture11/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture11/src/main/java/task1/MatchingBrackets.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture12/demo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture12/demo/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture12/demo/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture12/demo/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture12/demo/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture12/demo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture12/demo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture12/demo/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture12/demo/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture12/demo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture12/demo/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture12/demo/src/main/java/org/example/demo/HelloApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture12/demo/src/main/java/org/example/demo/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture12/demo/src/main/resources/org/example/demo/hello-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture12/exam-prep-main/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture12/exam-prep-main/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture12/exam-prep-main/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture12/exam-prep-main/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture12/exam-prep-main/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture12/exam-prep-main/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture12/exam-prep-main/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture12/exam-prep-main/assets/LaundroMat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture12/exam-prep-main/assets/check.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture12/exam-prep-main/assets/create-dialog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture12/exam-prep-main/assets/gui1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture12/exam-prep-main/assets/gui2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture12/exam-prep-main/assets/gui3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture12/exam-prep-main/assets/hello.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture12/exam-prep-main/classdiagram.puml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture12/exam-prep-main/exam-prep-main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture12/exam-prep-main/examprep.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture12/exam-prep-main/provided-code/Facade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture12/exam-prep-main/provided-code/LaundryConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture12/exam-prep-main/provided-code/LaundryMachine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture12/exam-prep-main/provided-code/LaundrySingleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture12/exam-prep-main/provided-code/TumbleDryer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture12/exam-prep-main/provided-code/WashProgram.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture12/exam-prep-main/provided-code/WashingMachine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture2/Exercises/search-and-replace-main/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture2/Exercises/search-and-replace-main/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture2/Exercises/search-and-replace-main/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture2/Exercises/search-and-replace-main/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture2/Exercises/search-and-replace-main/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture2/Exercises/search-and-replace-main/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture2/Exercises/search-and-replace-main/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture2/Exercises/search-and-replace-main/.idea/search-and-replace-main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture2/Exercises/search-and-replace-main/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture2/Exercises/search-and-replace-main/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture2/Exercises/search-and-replace-main/assets/finalStage.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture2/Exercises/search-and-replace-main/assets/task1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture2/Exercises/search-and-replace-main/searchandreplace/HelloWorld.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture2/Exercises/search-and-replace-main/searchandreplace/nbactions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture2/Exercises/search-and-replace-main/searchandreplace/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture2/Exercises/search-and-replace-main/searchandreplace/src/main/java/com/example/FXMLController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture2/Exercises/search-and-replace-main/searchandreplace/src/main/java/com/example/MainApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture2/Exercises/search-and-replace-main/searchandreplace/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture2/Exercises/search-and-replace-main/searchandreplace/src/main/resources/fxml/primary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture2/Exercises/search-and-replace-main/searchandreplace/target/classes/com/example/FXMLController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture2/Exercises/search-and-replace-main/searchandreplace/target/classes/com/example/MainApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture2/Exercises/search-and-replace-main/searchandreplace/target/classes/fxml/primary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture2/Exercises/search-and-replace-main/searchandreplace/target/classes/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture2/Prep/CamelWriterExercise/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture2/Prep/CamelWriterExercise/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture2/Prep/CamelWriterExercise/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture2/Prep/CamelWriterExercise/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture2/Prep/CamelWriterExercise/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture2/Prep/CamelWriterExercise/DryLips.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture2/Prep/CamelWriterExercise/MaryAnn.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture2/Prep/CamelWriterExercise/OhLand.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture2/Prep/CamelWriterExercise/images/output.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture2/Prep/CamelWriterExercise/instructions.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture2/Prep/CamelWriterExercise/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture2/Prep/CamelWriterExercise/src/main/java/org/example/camelwriter/CamelWriter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture2/Prep/CamelWriterExercise/target/classes/org/example/camelwriter/CamelWriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture2/Prep/DanishIslandExercise/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture2/Prep/DanishIslandExercise/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture2/Prep/DanishIslandExercise/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture2/Prep/DanishIslandExercise/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture2/Prep/DanishIslandExercise/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture2/Prep/DanishIslandExercise/Islands komma.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture2/Prep/DanishIslandExercise/Islands punktum.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture2/Prep/DanishIslandExercise/instructions.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture2/Prep/DanishIslandExercise/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture2/Prep/DanishIslandExercise/src/main/java/org/example/danishisland/DanishIsland.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture2/Prep/DanishIslandExercise/src/main/java/org/example/danishisland/DanishIslandFileReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture2/Prep/DanishIslandExercise/target/classes/org/example/danishisland/DanishIsland.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture2/Prep/DanishIslandExercise/target/classes/org/example/danishisland/DanishIslandFileReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture3/Exercise/french-mountains-main/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture3/Exercise/french-mountains-main/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture3/Exercise/french-mountains-main/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture3/Exercise/french-mountains-main/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture3/Exercise/french-mountains-main/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture3/Exercise/french-mountains-main/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture3/Exercise/french-mountains-main/FrenchMountains.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture3/Exercise/french-mountains-main/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture3/Exercise/french-mountains-main/assets/mountain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture3/Exercise/french-mountains-main/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture3/Exercise/french-mountains-main/src/main/java/Mountain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture3/Exercise/french-mountains-main/src/main/java/MountainRangeComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture3/Exercise/french-mountains-main/src/main/java/MountainSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture3/Exercise/french-mountains-main/target/classes/Mountain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture3/Exercise/french-mountains-main/target/classes/MountainRangeComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture3/Exercise/french-mountains-main/target/classes/MountainSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture3/Prep/Lec3-PrepExercise/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture3/Prep/Lec3-PrepExercise/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture3/Prep/Lec3-PrepExercise/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture3/Prep/Lec3-PrepExercise/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture3/Prep/Lec3-PrepExercise/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture3/Prep/Lec3-PrepExercise/alice30.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture3/Prep/Lec3-PrepExercise/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture3/Prep/Lec3-PrepExercise/src/main/java/comparable/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture3/Prep/Lec3-PrepExercise/src/main/java/textanalyzer/TextAnalyzer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture3/Prep/Lec3-PrepExercise/target/classes/comparable/Person$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture3/Prep/Lec3-PrepExercise/target/classes/comparable/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture3/Prep/Lec3-PrepExercise/target/classes/textanalyzer/TextAnalyzer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture4/Exercises/binary-search-main/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture4/Exercises/binary-search-main/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture4/Exercises/binary-search-main/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture4/Exercises/binary-search-main/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture4/Exercises/binary-search-main/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture4/Exercises/binary-search-main/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture4/Exercises/binary-search-main/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture4/Exercises/binary-search-main/src/main/java/binary_search/IterativeBinSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture4/Exercises/binary-search-main/src/main/java/binary_search/RecursiveBinSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture4/Exercises/binary-search-main/src/main/java/employee_details/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture4/Exercises/binary-search-main/src/main/java/employee_details/EmployeeBusinessLogic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture4/Exercises/binary-search-main/src/test/java/binary_search/IterativeBinSearchTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture4/Exercises/binary-search-main/src/test/java/binary_search/RecursiveBinSearchTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture4/Exercises/binary-search-main/src/test/java/employee_details/EmployeeBusinessLogicTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture4/Exercises/binary-search-main/target/classes/binary_search/IterativeBinSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture4/Exercises/binary-search-main/target/classes/binary_search/RecursiveBinSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture4/Exercises/binary-search-main/target/classes/employee_details/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture4/Exercises/binary-search-main/target/classes/employee_details/EmployeeBusinessLogic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture4/Exercises/binary-search-main/target/test-classes/employee_details/EmployeeBusinessLogicTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture4/Lecture/UnitTestingApp/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture4/Lecture/UnitTestingApp/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture4/Lecture/UnitTestingApp/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture4/Lecture/UnitTestingApp/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture4/Lecture/UnitTestingApp/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture4/Lecture/UnitTestingApp/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture4/Lecture/UnitTestingApp/src/main/java/calculator/MiniCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture4/Lecture/UnitTestingApp/src/main/java/exercise/ColorBag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture4/Lecture/UnitTestingApp/src/main/java/person_details/AgeComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture4/Lecture/UnitTestingApp/src/main/java/person_details/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture4/Lecture/UnitTestingApp/src/main/java/person_details/PersonDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture4/Lecture/UnitTestingApp/src/test/java/calculator/MiniCalculatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture4/Lecture/UnitTestingApp/src/test/java/junit_test_suite/TestSuite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture4/Lecture/UnitTestingApp/src/test/java/misc/MiscTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture4/Lecture/UnitTestingApp/src/test/java/person_details/AgeComparatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture4/Lecture/UnitTestingApp/target/classes/calculator/MiniCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture4/Lecture/UnitTestingApp/target/classes/exercise/ColorBag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture4/Lecture/UnitTestingApp/target/classes/person_details/AgeComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture4/Lecture/UnitTestingApp/target/classes/person_details/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture4/Lecture/UnitTestingApp/target/classes/person_details/PersonDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture4/Lecture/UnitTestingApp/target/test-classes/calculator/MiniCalculatorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture4/Lecture/UnitTestingApp/target/test-classes/junit_test_suite/TestSuite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture4/Lecture/UnitTestingApp/target/test-classes/misc/MiscTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture4/Lecture/UnitTestingApp/target/test-classes/person_details/AgeComparatorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture5/Lecture/BStreams-MultiThreadApp/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture5/Lecture/BStreams-MultiThreadApp/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture5/Lecture/BStreams-MultiThreadApp/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture5/Lecture/BStreams-MultiThreadApp/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture5/Lecture/BStreams-MultiThreadApp/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture5/Lecture/BStreams-MultiThreadApp/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture5/Lecture/BStreams-MultiThreadApp/Serial.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture5/Lecture/BStreams-MultiThreadApp/inout.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture5/Lecture/BStreams-MultiThreadApp/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture5/Lecture/BStreams-MultiThreadApp/src/main/java/BinaryIO/BinaryInputDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture5/Lecture/BStreams-MultiThreadApp/src/main/java/BinaryIO/BinaryOutputDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture5/Lecture/BStreams-MultiThreadApp/src/main/java/Misc/InOut.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture5/Lecture/BStreams-MultiThreadApp/src/main/java/Misc/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture5/Lecture/BStreams-MultiThreadApp/src/main/java/Misc/MyThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture5/Lecture/BStreams-MultiThreadApp/src/main/java/SerializableIO/SerializableDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture5/Lecture/BStreams-MultiThreadApp/src/main/java/SerializableIO/SerializableDemoAppend.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture5/Lecture/BStreams-MultiThreadApp/src/main/java/ThreadsUsingRunnable/PrintChar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture5/Lecture/BStreams-MultiThreadApp/src/main/java/ThreadsUsingRunnable/PrintNum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture5/Lecture/BStreams-MultiThreadApp/src/main/java/ThreadsUsingRunnable/TaskRunnableDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture5/Lecture/BStreams-MultiThreadApp/src/main/java/ThreadsUsingThread/PrintChar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture5/Lecture/BStreams-MultiThreadApp/src/main/java/ThreadsUsingThread/PrintNum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture5/Lecture/BStreams-MultiThreadApp/src/main/java/ThreadsUsingThread/TaskThreadDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture5/Lecture/BStreams-MultiThreadApp/target/classes/BinaryIO/BinaryInputDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture5/Lecture/BStreams-MultiThreadApp/target/classes/BinaryIO/BinaryOutputDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture5/Lecture/BStreams-MultiThreadApp/target/classes/Misc/InOut.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture5/Lecture/BStreams-MultiThreadApp/target/classes/Misc/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture5/Lecture/BStreams-MultiThreadApp/target/classes/Misc/MyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture5/Lecture/BStreams-MultiThreadApp/target/classes/SerializableIO/SerializableDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture5/Lecture/BStreams-MultiThreadApp/target/classes/SerializableIO/SerializableDemoAppend$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture5/Lecture/BStreams-MultiThreadApp/target/classes/SerializableIO/SerializableDemoAppend.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture5/Lecture/BStreams-MultiThreadApp/target/classes/ThreadsUsingRunnable/PrintChar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture5/Lecture/BStreams-MultiThreadApp/target/classes/ThreadsUsingRunnable/PrintNum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture5/Lecture/BStreams-MultiThreadApp/target/classes/ThreadsUsingRunnable/TaskRunnableDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture5/Lecture/BStreams-MultiThreadApp/target/classes/ThreadsUsingThread/PrintChar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture5/Lecture/BStreams-MultiThreadApp/target/classes/ThreadsUsingThread/PrintNum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture5/Lecture/BStreams-MultiThreadApp/target/classes/ThreadsUsingThread/TaskThreadDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture6/Exercises/binary-file-io-and-threads-main/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture6/Exercises/binary-file-io-and-threads-main/assets/output.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture6/Exercises/binary-file-io-and-threads-main/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture6/Exercises/binary-file-io-and-threads-main/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture6/Exercises/binary-file-io-and-threads-main/src/main/java/binarystreams/Species.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture6/Exercises/binary-file-io-and-threads-main/src/main/java/binarystreams/WriteSpeciesFileAppendError.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture6/Exercises/binary-file-io-and-threads-main/src/main/java/threads/RunnableDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture6/Exercises/binary-file-io-and-threads-main/src/main/java/threads/ThreadDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture7/one-armed-bandit-main/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture7/one-armed-bandit-main/assets/2equals.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture7/one-armed-bandit-main/assets/jackpot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture7/one-armed-bandit-main/assets/loser.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture7/one-armed-bandit-main/assets/running.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture7/one-armed-bandit-main/assets/ui.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture7/one-armed-bandit-main/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture7/one-armed-bandit-main/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture7/one-armed-bandit-main/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture7/one-armed-bandit-main/src/main/java/vop/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture7/one-armed-bandit-main/src/main/java/vop/PrimaryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture7/one-armed-bandit-main/src/main/resources/vop/fruits0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture7/one-armed-bandit-main/src/main/resources/vop/fruits1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture7/one-armed-bandit-main/src/main/resources/vop/fruits2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture7/one-armed-bandit-main/src/main/resources/vop/fruits3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture7/one-armed-bandit-main/src/main/resources/vop/fruits4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture7/one-armed-bandit-main/src/main/resources/vop/fruits5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture7/one-armed-bandit-main/src/main/resources/vop/fruits6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture7/one-armed-bandit-main/src/main/resources/vop/fruits7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture7/one-armed-bandit-main/src/main/resources/vop/fruits8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture7/one-armed-bandit-main/src/main/resources/vop/fruits9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture7/one-armed-bandit-main/src/main/resources/vop/primary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/src/main/java/CaseStudy_ConditionObject/Buffer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/src/main/java/CaseStudy_ConditionObject/ConsumerProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/src/main/java/CaseStudy_ConditionObject/ConsumerTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/src/main/java/CaseStudy_ConditionObject/ProducerTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/src/main/java/bankaccountthreadrunner/BankAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/src/main/java/bankaccountthreadrunner/BankAccountThreadRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/src/main/java/bankaccountthreadrunner/DepositRunnable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/src/main/java/bankaccountthreadrunner/WithdrawRunnable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/src/main/java/bankaccountthreadrunnerwithconditions/BankAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/src/main/java/bankaccountthreadrunnerwithconditions/BankAccountThreadRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/src/main/java/bankaccountthreadrunnerwithconditions/DepositRunnable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/src/main/java/bankaccountthreadrunnerwithconditions/WithdrawRunnable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/src/main/java/bankaccountthreadrunnerwithdeadlock/BankAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/src/main/java/bankaccountthreadrunnerwithdeadlock/BankAccountThreadRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/src/main/java/bankaccountthreadrunnerwithdeadlock/DepositRunnable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/src/main/java/bankaccountthreadrunnerwithdeadlock/WithdrawRunnable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/src/main/java/bankaccountthreadrunnerwithmonitors/BankAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/src/main/java/bankaccountthreadrunnerwithmonitors/BankAccountThreadRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/src/main/java/bankaccountthreadrunnerwithmonitors/DepositRunnable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/src/main/java/bankaccountthreadrunnerwithmonitors/WithdrawRunnable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/src/main/java/misc/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/src/main/java/tutorialspoint_3/Consumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/src/main/java/tutorialspoint_3/PCFixed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/src/main/java/tutorialspoint_3/Producer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/src/main/java/tutorialspoint_3/Q.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/target/classes/CaseStudy_ConditionObject/Buffer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/target/classes/CaseStudy_ConditionObject/ConsumerProducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/target/classes/CaseStudy_ConditionObject/ConsumerTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/target/classes/CaseStudy_ConditionObject/ProducerTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/target/classes/bankaccountthreadrunner/BankAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/target/classes/bankaccountthreadrunner/BankAccountThreadRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/target/classes/bankaccountthreadrunner/DepositRunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/target/classes/bankaccountthreadrunner/WithdrawRunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/target/classes/bankaccountthreadrunnerwithconditions/BankAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/target/classes/bankaccountthreadrunnerwithconditions/BankAccountThreadRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/target/classes/bankaccountthreadrunnerwithconditions/DepositRunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/target/classes/bankaccountthreadrunnerwithconditions/WithdrawRunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/target/classes/bankaccountthreadrunnerwithdeadlock/BankAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/target/classes/bankaccountthreadrunnerwithdeadlock/BankAccountThreadRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/target/classes/bankaccountthreadrunnerwithdeadlock/DepositRunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/target/classes/bankaccountthreadrunnerwithdeadlock/WithdrawRunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/target/classes/bankaccountthreadrunnerwithmonitors/BankAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/target/classes/bankaccountthreadrunnerwithmonitors/BankAccountThreadRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/target/classes/bankaccountthreadrunnerwithmonitors/DepositRunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/target/classes/bankaccountthreadrunnerwithmonitors/WithdrawRunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/target/classes/misc/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/target/classes/tutorialspoint_3/Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/target/classes/tutorialspoint_3/PCFixed.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/target/classes/tutorialspoint_3/Producer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/ThreadCommunication/target/classes/tutorialspoint_3/Q.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/Threads fra tutorialspoint/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/Threads fra tutorialspoint/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/Threads fra tutorialspoint/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/Threads fra tutorialspoint/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/Threads fra tutorialspoint/Java Interthread Communication Tutorial 3.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/Threads fra tutorialspoint/Java Multithreading Programming Tutorial 1.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/Threads fra tutorialspoint/Java Thread Synchronization Tutorial 2.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/Threads fra tutorialspoint/Threads fra tutorialspoint.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/Threads fra tutorialspoint/tutorialspoint_1/DisplayMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/Threads fra tutorialspoint/tutorialspoint_1/GuessANumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/Threads fra tutorialspoint/tutorialspoint_1/NewRunnable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/Threads fra tutorialspoint/tutorialspoint_1/NewThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/Threads fra tutorialspoint/tutorialspoint_1/ThreadClassDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/Threads fra tutorialspoint/tutorialspoint_2/Synch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/Threads fra tutorialspoint/tutorialspoint_3/Consumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/Threads fra tutorialspoint/tutorialspoint_3/PCFixed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/Threads fra tutorialspoint/tutorialspoint_3/Producer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/Threads fra tutorialspoint/tutorialspoint_3/Q.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/callback-and-circular-buffer-main/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/callback-and-circular-buffer-main/assets/example.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/callback-and-circular-buffer-main/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/callback-and-circular-buffer-main/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/callback-and-circular-buffer-main/src/main/java/circularbuffer/CircularBuffer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/callback-and-circular-buffer-main/src/main/java/circularbuffer/Consumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/callback-and-circular-buffer-main/src/main/java/circularbuffer/PCFixed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/callback-and-circular-buffer-main/src/main/java/circularbuffer/Producer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/callback-and-circular-buffer-main/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/callback-and-circular-buffer-main/src/main/java/vop/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/callback-and-circular-buffer-main/src/main/java/vop/CallBackInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/callback-and-circular-buffer-main/src/main/java/vop/Dice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/callback-and-circular-buffer-main/src/main/java/vop/FacadeWithCallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/callback-and-circular-buffer-main/src/main/java/vop/PrimaryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/callback-and-circular-buffer-main/src/main/resources/vop/dice1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/callback-and-circular-buffer-main/src/main/resources/vop/dice2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/callback-and-circular-buffer-main/src/main/resources/vop/dice3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/callback-and-circular-buffer-main/src/main/resources/vop/dice4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/callback-and-circular-buffer-main/src/main/resources/vop/dice5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/callback-and-circular-buffer-main/src/main/resources/vop/dice6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lecture8/callback-and-circular-buffer-main/src/main/resources/vop/primary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA1/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA1/assets/classdiagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA1/assets/gui.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA1/assets/skeleton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA1/fairytales/goldilocks-and-the-three-bears.fairytale" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA1/fairytales/tests/not-a-fairytale.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA1/fairytales/tests/reversed-test.fairytale" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA1/fairytales/tests/test.fairytale" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA1/fairytales/the-princess-and-the-pea.fairytale" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA1/fairytales/the-ugly-duckling.fairytale" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA1/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA1/src/main/java/lib/GenericFairytale.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA1/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA1/src/main/java/vop/Fairytale.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA1/src/main/java/vop/NotAFairytaleException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA1/src/main/java/vop/WordComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA1/src/main/java/vop/ui/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA1/src/main/java/vop/ui/PrimaryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA1/src/main/resources/vop/ui/primary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA1/src/test/java/vop/ComparisonTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA1/src/test/java/vop/FairytaleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA1/src/test/java/vop/StringReversibleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/assets/gui.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/assets/skeleton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/pokemon.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/java/dk/sdu/pa2/task1/BorrowTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/java/dk/sdu/pa2/task1/Library.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/java/dk/sdu/pa2/task1/ReturnTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/java/dk/sdu/pa2/task2/HealthComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/java/dk/sdu/pa2/task2/Pokemon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/java/dk/sdu/pa2/task2/PokemonReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/java/dk/sdu/pa2/task2/PokemonType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/java/dk/sdu/pa2/task3/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/java/dk/sdu/pa2/task3/PrimaryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/placeholder.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Abra.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Aerodactyl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Alakazam.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Arbok.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Arcanine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Articuno.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Beedrill.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Bellsprout.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Blastoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Bulbasaur.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Butterfree.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Caterpie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Chansey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Charizard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Charmander.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Charmeleon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Clefable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Clefairy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Cloyster.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Cubone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Dewgong.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Diglett.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Ditto.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Dodrio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Doduo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Dragonair.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Dragonite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Dratini.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Drowzee.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Dugtrio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Eevee.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Ekans.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Electabuzz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Electrode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Exeggcute.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Exeggutor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Farfetch'd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Fearow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Flareon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Gastly.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Gengar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Geodude.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Gloom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Golbat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Goldeen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Golduck.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Golem.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Graveler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Grimer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Growlithe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Gyarados.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Haunter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Hitmonchan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Hitmonlee.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Horsea.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Hypno.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Ivysaur.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Jigglypuff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Jolteon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Jynx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Kabuto.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Kabutops.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Kadabra.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Kakuna.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Kangaskhan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Kingler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Koffing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Krabby.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Lapras.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Lickitung.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Machamp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Machoke.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Machop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Magikarp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Magmar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Magnemite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Magneton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Mankey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Marowak.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Meowth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Metapod.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Mew.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Mewtwo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Moltres.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Mr. Mime .png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Muk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Nidoking.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Nidoqueen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Nidoran_F.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Nidoran_M.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Nidorina.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Nidorino.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Ninetales.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Oddish.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Omanyte.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Omastar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Onix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Paras.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Parasect.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Persian.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Pidgeot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Pidgeotto.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Pidgey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Pikachu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Pinsir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Poliwag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Poliwhirl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Poliwrath.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Ponyta.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Porygon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Primeape.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Psyduck.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Raichu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Rapidash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Raticate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Rattata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Rhydon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Rhyhorn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Sandshrew.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Sandslash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Scyther.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Seadra.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Seaking.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Seel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Shellder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Slowbro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Slowpoke.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Snorlax.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Spearow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Squirtle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Starmie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Staryu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Tangela.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Tauros.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Tentacool.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Tentacruel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Vaporeon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Venomoth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Venonat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Venusaur.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Victreebel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Vileplume.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Voltorb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Vulpix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Wartortle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Weedle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Weepinbell.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Weezing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Wigglytuff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Zapdos.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/pokemon_images/Zubat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/main/resources/dk/sdu/pa2/task3/primary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/test/java/dk/sdu/pa2/ComparisonTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/test/java/dk/sdu/pa2/LibraryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/test/java/dk/sdu/pa2/PokemonTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/test/resources/testpokemon.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PA2/src/test/resources/testtypes.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../VoopNotes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../VoopNotes.zim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../VoopNotes/Lecture1Notes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../VoopNotes/Lecture1Prep.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../VoopNotes/notebook.zim" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2hQm57XjNQEkHjDHgrTlMCittew" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/School/2.Semester/VOOP/ExamPrep/RerunExerices/Lecture 2/search-and-replace-main/search-and-replace-main",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-89b38a74fcf8-intellij.indexing.shared.core-IU-242.14146.16" />
+        <option value="bundled-js-predefined-d6986cc7102b-e20c6e5d2dc8-JavaScript-IU-242.14146.16" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0cdd48e6-2d6c-4d4e-abb6-61985da00ed8" name="Changes" comment="" />
+      <created>1717534490206</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717534490206</updated>
+      <workItem from="1717534491537" duration="17000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -84,7 +84,6 @@ public class PrimaryController {
                         resultLabel.setText("2 equals! Congratulations!");
                     } else {
                         resultLabel.setText("You are a LOSER!");
-
                     }
                 }
             });
@@ -92,7 +91,48 @@ public class PrimaryController {
     }
 
     public void startButtonHandler(ActionEvent actionEvent) {
+        BanditRunnable br1 = new BanditRunnable(1, 120, spin1);
+        BanditRunnable br2 = new BanditRunnable(2, 100, spin2);
+        BanditRunnable br3 = new BanditRunnable(3, 140, spin3);
+
+        t1 = new Thread(br1);
+        t2 = new Thread(br2);
+        t3 = new Thread(br3);
+
+        t1.setDaemon(true);
+        t2.setDaemon(true);
+        t3.setDaemon(true);
+
+        t1.start();
+        t2.start();
+        t3.start();
+
+        startButton.setDisable(true);
+
+        stop1.setDisable(false);
+        stop2.setDisable(false);
+        stop3.setDisable(false);
+
+        resultLabel.setText("Running ...");
     }
+
+    public void stopButtonHandler(ActionEvent actionEvent) {
+        if (actionEvent.getSource() == stop1) {
+            t1.interrupt();
+            stop1.setDisable(true);
+        } else if (actionEvent.getSource() == stop2) {
+            t2.interrupt();
+            stop2.setDisable(true);
+        } else if (actionEvent.getSource() == stop3) {
+            t3.interrupt();
+            stop3.setDisable(true);
+        }
+        if (!t1.isAlive() && !t2.isAlive() && !t3.isAlive()) {
+            startButton.setDisable(false);
+        }
+
+    }
+
 
     public class BanditRunnable implements Runnable {
 

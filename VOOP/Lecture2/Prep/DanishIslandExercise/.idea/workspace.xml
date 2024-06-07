@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9a750b43-6e9e-4eef-b7b5-0d07a93db8db" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Exercises + Solutions/Lesson 1/Exercise 1/Lesson01CipherSolution/Lesson01CipherSolution/Lesson01CipherSolution.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Exercises + Solutions/Lesson 1/Exercise 2/Lesson01FacadeSingletonSolution/Lesson01FacadeSingletonSolution/Lesson01FacadeSingletonSolution.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Exercises + Solutions/Lesson 2/Lesson02SearchReplaceSolution/Lesson02SearchReplaceSolution/Lesson02SearchReplaceSolution.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Exercises + Solutions/Lesson 3/Lesson03MountainsExercise/Lesson03MountainsExercise.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Exercises + Solutions/Lesson 4 new/Lesson 8 Exercices + Solutions/Lesson08BinarySearchExercise/.idea/Lesson08BinarySearchExercise.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Exercises + Solutions/Lesson 4 new/Lesson 8 Exercices + Solutions/Lesson08BinarySearchSolution/.idea/Lesson08BinarySearchSolution.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Exercises + Solutions/Lesson 4 new/Lesson 8 Exercices + Solutions/Lesson08BinarySearchSolution/Lesson08BinarySearchSolution.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Exercises + Solutions/Lesson 4 new/Lesson 8 Exercices + Solutions/Lesson08CallBackWithTestExercise/Lesson08CallBackWithTestExercise.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Exercises + Solutions/Lesson 4 new/Lesson 8 Exercices + Solutions/Lesson08CallBackWithTestSolution/Lesson08CallBackWithTestSolution.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Exercises + Solutions/Lesson 4/Lesson05TCPThreadExercise/Lesson05TCPThreadExercise.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Exercises + Solutions/Lesson 4/Lesson05TCPThreadSolution/Lesson05TCPThreadSolution.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Exercises + Solutions/Lesson 7/Lesson 07 Exercices/Lesson07CallbackExercise/Lesson.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Exercises + Solutions/Lesson 7/Lesson 07 Exercices/Lesson07CallbackSolution/Lesson07CallbackSolution.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Exercises + Solutions/Lesson 7/Lesson 07 Exercices/Lesson07CircularBuffer/Lesson07CircularBuffer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Exercises + Solutions/Lesson 7/Lesson 07 Exercices/Lesson07CircularBufferSolution/Lesson07CircularBufferSolution.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Exercises + Solutions/Lesson 8/Lesson08BinarySearchExercise/.idea/Lesson08BinarySearchExercise.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Exercises + Solutions/Lesson 8/Lesson08BinarySearchExercise/Lesson08BinarySearchExercise.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Exercises + Solutions/Lesson 8/Lesson08BinarySearchSolution/.idea/Lesson08BinarySearchSolution.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Exercises + Solutions/Lesson 8/Lesson08BinarySearchSolution/Lesson08BinarySearchSolution.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Exercises + Solutions/Lesson 8/Lesson08CallBackWithTestExercise/Lesson08CallBackWithTestExercise.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Exercises + Solutions/Lesson 8/Lesson08CallBackWithTestSolution/Lesson08CallBackWithTestSolution.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Exercises + Solutions/Lesson 9/Lesson09InstructorHours/Lesson09InstructorHours.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Exercises + Solutions/Lesson 9/Lesson09InstructorHoursSolution/Lesson09InstructorHoursSolution.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Exercises + Solutions/Reviewed Lesson 1/Exercise 1/Lesson01CipherExercise/Lesson01CipherExercise.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Exercises + Solutions/Reviewed Lesson 1/Exercise 1/Lesson01CipherSolution/Lesson01CipherSolution.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Exercises + Solutions/Reviewed Lesson 1/Exercise 1/SendTo Instructors/Lecture 1 Exercise 1/Lesson01CipherExercise/Lesson01CipherExercise.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Exercises + Solutions/Reviewed Lesson 1/Exercise 1/SendTo Instructors/Lecture 1 Exercise 1/Lesson01CipherSolution/Lesson01CipherSolution.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Exercises + Solutions/Reviewed Lesson 1/Exercise 2/Lesson01FacadeSingletonExercise/Lesson01FacadeSingletonExercise.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Exercises + Solutions/Reviewed Lesson 1/Exercise 2/Lesson01FacadeSingletonSolution/Lesson01FacadeSingletonSolution/Lesson01FacadeSingletonExercise.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Exercises + Solutions/Reviewed Lesson 2/Lesson02SearchReplaceSolution/Lesson02SearchReplaceSolution/Lesson02SearchReplaceSolution.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Exercises + Solutions/Reviewed Lesson 2/send To Instructors/Lesson 2 Exercise/Lesson02SearchReplaceSolution/Lesson02SearchReplaceSolution.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Exercises + Solutions/Reviewed Lesson 7/Lesson7/OneArmedBandit/Exercise/OneArmedBandit.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Exercises + Solutions/Reviewed Lesson 7/Lesson7_solution/OneArmedBandit/Solution/OneArmedBandit.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Exercises + Solutions/Reviewed Lesson 8/By Aksel/Lesson8/CircularBuffer/Exercise/Lesson7Exercise-CircularBuffer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Exercises + Solutions/Reviewed Lesson 8/By Aksel/Lesson8_solution/CallBack/Solution/Lesson8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Exercises + Solutions/Reviewed Lesson 8/By Aksel/Lesson8_solution/CircularBuffer/Solution/Lesson7Solution-CircularBuffer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Exercises + Solutions/Reviewed Lesson 8/Exercise/Lesson8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Exercises + Solutions/Reviewed Lesson 8/Solution/Lesson8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Lectures/Lesson 10/pa2-trunk/pa2-trunk/task.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Lectures/Lesson 2/Preparation/CamelWriterExercise/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Lectures/Lesson 2/Preparation/DanishIslandExercise/Islands komma.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Lectures/Lesson 2/Preparation/DanishIslandExercise/Islands punktum.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Lectures/Lesson 2/Preparation/DanishIslandExercise/src/main/java/org/example/danishisland/DanishIsland.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Lectures/Lesson 2/Preparation/DanishIslandExercise/src/main/java/org/example/danishisland/DanishIslandFileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Lectures/Lesson 2/Preparation/DanishIslandSolution/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Lectures/Lesson 2/Preparation/DanishIslandSolution/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Lectures/Lesson 2/Preparation/DanishIslandSolution/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Lectures/Lesson 2/Preparation/DanishIslandSolution/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Lectures/Lesson 2/Preparation/DanishIslandSolution/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Lectures/Lesson 2/Preparation/DanishIslandSolution/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Lectures/Lesson 2/Preparation/DanishIslandSolution/Islands komma.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Lectures/Lesson 2/Preparation/DanishIslandSolution/Islands punktum.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Lectures/Lesson 2/Preparation/DanishIslandSolution/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Lectures/Lesson 2/Preparation/DanishIslandSolution/src/main/java/org/example/danishisland/DanishIsland.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Lectures/Lesson 2/Preparation/DanishIslandSolution/src/main/java/org/example/danishisland/DanishIslandFileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Lectures/Lesson 3/Preparation/Lec3-PrepExercise/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Lectures/Lesson 3/Preparation/Lec3-PrepExercise/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Lectures/Lesson 3/Preparation/Lec3-PrepExercise/alice30.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Lectures/Lesson 3/Preparation/Lec3-PrepExercise/src/main/java/comparable/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Lectures/Lesson 3/Preparation/Lec3-PrepExercise/src/main/java/textanalyzer/TextAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Lectures/Lesson 3/Preparation/Lec3-PrepSolution/alice30.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Lectures/Lesson 3/Preparation/Lec3-PrepSolution/src/main/java/comparable/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Lectures/Lesson 3/Preparation/Lec3-PrepSolution/src/main/java/textanalyzer/TextAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Lectures/Lesson 4/UnitTestingApp/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Lectures/Lesson 4/UnitTestingApp/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Lectures/Lesson 4/UnitTestingApp/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Lectures/Lesson 4/UnitTestingApp/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Lectures/Lesson 4/UnitTestingApp/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Lectures/Lesson 4/UnitTestingApp/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Lectures/Lesson 4/UnitTestingApp/src/main/java/calculator/MiniCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Lectures/Lesson 4/UnitTestingApp/src/main/java/exercise/ColorBag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Lectures/Lesson 4/UnitTestingApp/src/main/java/person_details/AgeComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Lectures/Lesson 4/UnitTestingApp/src/main/java/person_details/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Lectures/Lesson 4/UnitTestingApp/src/main/java/person_details/PersonDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Lectures/Lesson 4/UnitTestingApp/src/test/java/calculator/MiniCalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Lectures/Lesson 4/UnitTestingApp/src/test/java/junit_test_suite/TestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Lectures/Lesson 4/UnitTestingApp/src/test/java/misc/MiscTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Lectures/Lesson 4/UnitTestingApp/src/test/java/person_details/AgeComparatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Lectures/Lesson 5/Counting Activity/Counting Activity 1 exercise/Counting Activity 1/Counting Activity 1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../VOP-2023/VOP Lectures/Lesson 5/Counting Activity/Counting Activity 1 solution/Counting Activity 1/Counting Activity 1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../../PhD Defense/04-05-2018-PhD Presentation.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../../PhD Defense/04-05-2018-PhD Presentation.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../LTP Course/Backup of LTP Journal Template.wbk" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../LTP Course/Backup of LTP Journal Template.wbk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../LTP Course/LTP Journal Template.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../LTP Course/LTP Journal Template.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../LTP Course/Links.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../LTP Course/Links.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../LTP Course/Module 3/Backup of The Template for the Development Project Report.wbk" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../LTP Course/Module 3/Backup of The Template for the Development Project Report.wbk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../LTP Course/Module 3/The Template for the Development Project Report.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../LTP Course/Module 3/The Template for the Development Project Report.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../LTP Course/Module 3/The Template for the Extended Problem Formulation.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../LTP Course/Module 3/The Template for the Extended Problem Formulation.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../LTP Course/Module 3/The Template for the Idea Paper.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../LTP Course/Module 3/The Template for the Idea Paper.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../LTP Course/Module 3/survey results/Aggregate.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../LTP Course/Module 3/survey results/Aggregate.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../MUSPDA/Software_Engineering_Section_MUS-Aisha-2021.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../MUSPDA/Software_Engineering_Section_Work_Allocation-Aisha 2021.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Projects/FYP 2022 Fall/Backup of Project Report Layout.wbk" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../Projects/FYP 2022 Fall/Backup of Project Report Layout.wbk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Projects/FYP 2022 Fall/Project Report Layout.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../Projects/FYP 2022 Fall/Project Report Layout.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Projects/FYP 2022/Project_Description.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../Projects/FYP 2022/Project_Description.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Projects/Internship 2022/Activity plan template.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../Projects/Internship 2022/Activity plan template.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Projects/Internship 2022/Activity plan template.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../Projects/Internship 2022/Activity plan template.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Projects/Internship 2022/Backup of Activity plan template.wbk" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../Projects/Internship 2022/Backup of Activity plan template.wbk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Projects/Internship 2022/Sample Activity Plan.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../Projects/Internship 2022/Sample Activity Plan.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Projects/Internship 2022/Sample Internship Report.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../Projects/Internship 2022/Sample Internship Report.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Projects/project description samples/Engelsk Projektbeskrivelse Machine learning.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../Projects/project description samples/Engelsk Projektbeskrivelse Machine learning.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Projects/project description samples/Graduation_Project_Description.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../Projects/project description samples/Graduation_Project_Description.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Scientific Methods/Course Mat/Backup of ResearchPlanTemplate.wbk" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../Scientific Methods/Course Mat/Backup of ResearchPlanTemplate.wbk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Scientific Methods/Course Mat/ResearchPlanTemplate.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../Scientific Methods/Course Mat/ResearchPlanTemplate.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Scientific Methods/Course Mat/ResearchPlanTemplate.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../Scientific Methods/Course Mat/ResearchPlanTemplate.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Scientific Methods/Guest Lecture/Lecture 8- Quantitative_Research.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../Scientific Methods/Guest Lecture/Lecture 8- Quantitative_Research.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Scientific Methods/Guest Lecture/Lecture 8- Quantitative_Research.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../Scientific Methods/Guest Lecture/Lecture 8- Quantitative_Research.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Scientific Methods/Lecture 1/Lecture 1-Course Intoduction.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../Scientific Methods/Lecture 1/Lecture 1-Course Intoduction.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Scientific Methods/Lecture 1/Lecture 1-Course Intoduction.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../Scientific Methods/Lecture 1/Lecture 1-Course Intoduction.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Scientific Methods/Lecture 2/Assignment 1- Introduction to Research.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../Scientific Methods/Lecture 2/Assignment 1- Introduction to Research.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Scientific Methods/Lecture 2/Assignment 1- Introduction to Research.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../Scientific Methods/Lecture 2/Assignment 1- Introduction to Research.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Scientific Methods/Lecture 2/Introduction to Research.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../Scientific Methods/Lecture 2/Introduction to Research.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Scientific Methods/Lecture 2/Introduction to Research.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../Scientific Methods/Lecture 2/Introduction to Research.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Scientific Methods/Lecture 2/Lecture 2-Introduction to Research.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../Scientific Methods/Lecture 2/Lecture 2-Introduction to Research.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Scientific Methods/Lecture 3/Assignment 2- Role and Use of Theory.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../Scientific Methods/Lecture 3/Assignment 2- Role and Use of Theory.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Scientific Methods/Lecture 3/Assignment 2- Role and Use of Theory.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../Scientific Methods/Lecture 3/Assignment 2- Role and Use of Theory.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Scientific Methods/Lecture 3/Chapter11-Guide to Advanced Empirical Software Engineering.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../Scientific Methods/Lecture 3/Chapter11-Guide to Advanced Empirical Software Engineering.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Scientific Methods/Lecture 3/Role and Use of Theory.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../Scientific Methods/Lecture 3/Role and Use of Theory.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Scientific Methods/Lecture 3/Role and Use of Theory.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../Scientific Methods/Lecture 3/Role and Use of Theory.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Scientific Methods/Lecture 4/Answers-Case Study Examples.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../Scientific Methods/Lecture 4/Answers-Case Study Examples.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Scientific Methods/Lecture 4/Answers-Case Study Examples.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../Scientific Methods/Lecture 4/Answers-Case Study Examples.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Scientific Methods/Lecture 4/Lecture 4- Research Ethics.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Scientific Methods/Lecture 4/Research Ethics.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../Scientific Methods/Lecture 4/Research Ethics.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Scientific Methods/Lecture 5/Assignment 3 Evidence Based Software Engineering.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../Scientific Methods/Lecture 5/Assignment 3 Evidence Based Software Engineering.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Scientific Methods/Lecture 5/Assignment 3 Evidence Based Software Engineering.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../Scientific Methods/Lecture 5/Assignment 3 Evidence Based Software Engineering.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Scientific Methods/Lecture 5/Evidence Based Software Engineering.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../Scientific Methods/Lecture 5/Evidence Based Software Engineering.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Scientific Methods/Lecture 5/In Class Exercise/10_causevic_TDD.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Scientific Methods/Lecture 5/In Class Exercise/91_TDD_metanalysis.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Scientific Methods/Lecture 5/Lecture 5-Evidence Based Software Engineering.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../Scientific Methods/Lecture 5/Lecture 5-Evidence Based Software Engineering.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Scientific Methods/Lecture 6/Lecture 6- Qualitative Data Collection and Analysis.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Scientific Methods/Lecture 6/Lecture 7- Qualitative Data Collection and Analysis.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../Scientific Methods/Lecture 6/Lecture 7- Qualitative Data Collection and Analysis.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Scientific Methods/Lecture 6/Qualitative Data Collection and Analysis.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Scientific Methods/Lecture 7/Lecture 9- Validity Threats.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../Scientific Methods/Lecture 7/Lecture 9- Validity Threats.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Scientific Methods/Lecture 7/Lecture 9- Validity Threats.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../Scientific Methods/Lecture 7/Lecture 9- Validity Threats.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Scientific Methods/Lecture 8/Lecture 10- Academic Writing.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../Scientific Methods/Lecture 8/Lecture 10- Academic Writing.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Scientific Methods/Lecture 8/Lecture 8- Academic Writing.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../Scientific Methods/Lecture 8/Lecture 8- Academic Writing.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Scientific Methods/Research Reports/Supplementary materials to submit with final report.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../Scientific Methods/Research Reports/Supplementary materials to submit with final report.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Scientific Methods/Research Reports/Supplementary materials to submit with final report.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../Scientific Methods/Research Reports/Supplementary materials to submit with final report.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Scientific Methods/~$eswellrd5e_videoquiz_answers_to_video_assessment.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Semester Coordination/sdu-se-teaching-sem1" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../Semester Coordination/sdu-se-teaching-sem1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Semester Coordination/sdu-se-teaching-sem1/doc/build.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../Semester Coordination/sdu-se-teaching-sem1/doc/build.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Fisayo Material/VOP19/VOP19/Liang 11/slide-277510/slide/14slide.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Fisayo Material/VOP19/VOP19/Liang 11/slide-277510/slide/14slide.ppt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Fisayo Material/VOP19/VOP19/Liang 11/slide-277510/slide/15slide.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Fisayo Material/VOP19/VOP19/Liang 11/slide-277510/slide/15slide.ppt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Fisayo Material/VOP19/VOP19/Liang 11/slide-277510/slide/20slide.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Fisayo Material/VOP19/VOP19/Liang 11/slide-277510/slide/20slide.ppt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Fisayo Material/VOP19/VOP19/Liang 11/slide-277510/slide/32slide.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Fisayo Material/VOP19/VOP19/Liang 11/slide-277510/slide/32slide.ppt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../VOP-2022/exam question links/Links.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../VOP-2022/exam question links/Links.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../../../UIIT/Ms.Aisha Umair/Fall 2009/ITC/lectures/HTML(PART II).ppt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../../../UIIT/Ms.Aisha Umair/Fall 2009/ITC/lectures/HTML(PART II).ppt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../../../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2L8jMhjU0UmGsMvI58JSU1PZRUa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.DanishIslandFileReader.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/aiu/Aisha/PhD-Research/PhD Job/Fixed Term Lecturer/VOP/VOP-2024/VOP Lectures/Lesson 2/Preparation/DanishIslandSolution/pom.xml",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\aiu\Aisha\PhD-Research\PhD Job\Fixed Term Lecturer\VOP\VOP-2023\VOP Lectures\Lesson 2\Preparation\DanishIslandExercise" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="DanishIslandFileReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.danishisland.DanishIslandFileReader" />
+      <module name="DanishIslandExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.danishisland.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DanishIslandFileReader" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-4caba194b151-23eed401" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9a750b43-6e9e-4eef-b7b5-0d07a93db8db" name="Changes" comment="" />
+      <created>1675259559899</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675259559899</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

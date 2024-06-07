@@ -8,7 +8,16 @@ public class WriteSpeciesFileAppendError {
     public static void main(String[] args) {
         String fileName = getFileName("Enter output file name.");
 
-        try (ObjectOutputStream outputStream = new ObjectOutputStream(new FileOutputStream(fileName, true))) {
+        boolean fileExist = (new File(fileName).exists());
+
+        try (ObjectOutputStream outputStream = new ObjectOutputStream(new FileOutputStream(fileName, true)){
+            @Override
+            protected void writeStreamHeader() throws IOException {
+                if(fileExist) reset();
+                else super.writeStreamHeader();
+            }
+        }) {
+
             Species califCondor = new Species("Calif. Condor", 27, 0.02);
             outputStream.writeObject(califCondor);
 

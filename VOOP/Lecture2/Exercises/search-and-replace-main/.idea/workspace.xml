@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7940e9aa-94ef-4b55-979b-5379d248b59f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/searchandreplace/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/searchandreplace/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/searchandreplace/searchandreplace.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/searchandreplace/src/main/java/com/example/FXMLController.java" beforeDir="false" afterPath="$PROJECT_DIR$/searchandreplace/src/main/java/com/example/FXMLController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/searchandreplace/src/main/resources/fxml/primary.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/searchandreplace/src/main/resources/fxml/primary.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/searchandreplace/target/classes/com/example/FXMLController.class" beforeDir="false" afterPath="$PROJECT_DIR$/searchandreplace/target/classes/com/example/FXMLController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/searchandreplace/target/classes/com/example/MainApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/searchandreplace/target/classes/com/example/MainApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/searchandreplace/target/classes/fxml/primary.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/searchandreplace/target/classes/fxml/primary.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/searchandreplace/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/searchandreplace/target/classes/module-info.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2cAbftT8sDm5NiwMDwiWzMS6eAN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/mikkel/School/2.Semester/VOOP/Lecture2/Exercises/search-and-replace-main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.46666667",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7940e9aa-94ef-4b55-979b-5379d248b59f" name="Changes" comment="" />
+      <created>1707557436389</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707557436389</updated>
+      <workItem from="1707557437412" duration="1337000" />
+      <workItem from="1707558841015" duration="140000" />
+      <workItem from="1707559066632" duration="74000" />
+      <workItem from="1707559166798" duration="40000" />
+      <workItem from="1707559228449" duration="60000" />
+      <workItem from="1707559360280" duration="925000" />
+      <workItem from="1707560312424" duration="27000" />
+      <workItem from="1707560356511" duration="769000" />
+      <workItem from="1707561144060" duration="893000" />
+      <workItem from="1707663616748" duration="4202000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

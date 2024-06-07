@@ -1,21 +1,21 @@
 package threads;
 
 public class Counter {
-    private int count;
+    private int counter;
 
     public Counter() {
-        this.count = 0;
+        this.counter = 0;
     }
 
-    public int getCount() {
-        return count;
+    public int getCounter() {
+        return counter;
     }
 
     public void increment() {
-        this.count = this.count + 2;
+        this.counter = this.counter + 2;
     }
 
     public void decrement() {
-        this.count--;
+        this.counter--;
     }
 }

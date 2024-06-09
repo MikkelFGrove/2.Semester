@@ -11,6 +11,7 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 
 import java.io.File;
+import java.net.URISyntaxException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
@@ -40,24 +41,39 @@ public class PrimaryController implements Initializable, CallBackInterface {
     @FXML
     private void buttonAction(ActionEvent event) {
         if (event.getSource() == startButton) {
-            // Initialize the facade and start it.
-            // handle access to the buttons
+            try {
+                facade = new FacadeWithCallback(this);
+                facade.start();
+                stopButton.setDisable(false);
+                startButton.setDisable(true);
+            } catch (URISyntaxException e) {
+                throw new RuntimeException(e);
+            }
         } else {
-            // Stop the facade
+            facade.interrupt();
+            stopButton.setDisable(true);
+            startButton.setDisable(false);
         }
     }
 
     @Override
     public void updateMessage(String message) {
-        // This is the implementation of the CallBack. Remember it is called from a Thread!
-        // append the message to the textArea
+        Platform.runLater(new Runnable() {
+            @Override
+            public void run() {
+                textArea.setText(textArea.getText() + message + "\n");
+            }
+        });
 
+        if (!facade.isAlive()){
+            stopButton.fire();
+        }
     }
 
     @Override
     public void updateImages(File i1, File i2) {
-        // Changes the pictures on the imageViews
-       /* Platform.runLater(new Runnable() {
+
+       Platform.runLater(new Runnable() {
             @Override
             public void run() {
                 die1view.setImage(new Image(i1.toURI().toString()));
@@ -66,7 +82,7 @@ public class PrimaryController implements Initializable, CallBackInterface {
         });
 
 
-*/
+
     }
 
 

@@ -14,11 +14,41 @@ public class CircularBuffer {
     }
 
     synchronized void get() {
-        throw new UnsupportedOperationException("Implementer get() metoden");
+        if (buffer[getIndex] != null){
+
+            System.out.println(Thread.currentThread().getName()+"\tGot: " + getIndex + ": " + buffer[getIndex]);
+            buffer[getIndex] = null;
+            getIndex = (getIndex + 1) % size;
+            notifyAll();
+        }
+
+        else {
+            System.out.println("*** Buffer Empty ***");
+            try {
+                wait(100);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+        }
     }
 
     synchronized void put(int n) {
-        throw new UnsupportedOperationException("Implementer put() metoden");
+        if(buffer[putIndex] == null){
+            buffer[putIndex] = n;
+            System.out.println(Thread.currentThread().getName()+" Put: " + putIndex+ ": " + n);
+            putIndex = (putIndex + 1) % size;
+            notifyAll();
+        }
+
+        else {
+            System.out.println("*** Buffer full ***");
+            try {
+                wait(100);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+        }
+
     }
 
 

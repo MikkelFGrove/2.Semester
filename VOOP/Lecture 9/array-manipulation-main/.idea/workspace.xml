@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f88ea4d5-8ecf-4f4a-9544-b87b57a281e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ArrayManipulation/ArrayManipulation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FilesInDirs/FindFilesRecursive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lecture8/callback-and-circular-buffer-main/src/main/java/circularbuffer/CircularBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lecture8/callback-and-circular-buffer-main/src/main/java/circularbuffer/CircularBuffer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lecture8/callback-and-circular-buffer-main/src/main/java/circularbuffer/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lecture8/callback-and-circular-buffer-main/src/main/java/circularbuffer/Consumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lecture8/callback-and-circular-buffer-main/src/main/java/circularbuffer/PCFixed.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lecture8/callback-and-circular-buffer-main/src/main/java/circularbuffer/PCFixed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lecture8/callback-and-circular-buffer-main/src/main/java/circularbuffer/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lecture8/callback-and-circular-buffer-main/src/main/java/circularbuffer/Producer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lecture8/callback-and-circular-buffer-main/src/main/java/vop/PrimaryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lecture8/callback-and-circular-buffer-main/src/main/java/vop/PrimaryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../e-commerce-prototype" beforeDir="false" afterPath="$PROJECT_DIR$/../../../e-commerce-prototype" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,46 +15,52 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MikkelFGrove&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:MikkelFGrove/2.Semester.git&quot;,
+    &quot;accountId&quot;: &quot;11a75ae2-56de-463d-8d23-823d00f56b01&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2edWT4mLT9dEN849ziQ3mf83DNK" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/mikkel/School/2.Semester/VOOP/Lecture 9/array-manipulation-main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mikkel/School/2.Semester/VOOP/Lecture 9/array-manipulation-main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="array-manipulation-main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="array-manipulation-main" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-89b38a74fcf8-intellij.indexing.shared.core-IU-242.14146.16" />
+        <option value="bundled-js-predefined-d6986cc7102b-e20c6e5d2dc8-JavaScript-IU-242.14146.16" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -79,6 +71,8 @@
       <option name="presentableId" value="Default" />
       <updated>1712234939135</updated>
       <workItem from="1712234940223" duration="3793000" />
+      <workItem from="1717927188602" duration="10000" />
+      <workItem from="1717927389718" duration="31000" />
     </task>
     <servers />
   </component>

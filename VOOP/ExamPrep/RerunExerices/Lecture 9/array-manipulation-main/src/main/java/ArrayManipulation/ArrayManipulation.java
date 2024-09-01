@@ -17,10 +17,26 @@ public class ArrayManipulation {
     }
 
     public int[] evenOdd(int[] array) {
-        throw new UnsupportedOperationException("Not supported yet.");
+        int[] tempArray = new int[array.length];
+        int oddPos = 0;
+        int evenPos = tempArray.length -1;
+        for (int number : array) {
+            if (number % 2 == 0) {
+                tempArray[evenPos] = number;
+                evenPos--;
+            } else {
+                tempArray[oddPos] = number;
+                oddPos++;
+            }
+        }
+        System.out.println("evenOdd: " +Arrays.toString(tempArray));
+        sort(tempArray, oddPos);
+        return tempArray;
+
     }
 
     private void sort(int[] array, int splitIndex) {
+
         throw new UnsupportedOperationException("Not supported yet.");
     }
 }
